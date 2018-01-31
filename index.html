@@ -1,3 +1,7 @@
+---
+layout: default
+---
+   
 <html>
     <head>
         <title>Yup</title>
@@ -5,5 +9,15 @@
     <body>
         <h1>hello world</h1>
         <p>it's jason</p>
+        
+        <ul>
+          {% for post in site.posts %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %} 
+        </ul>
+        
+        
     </body>
 </html>
