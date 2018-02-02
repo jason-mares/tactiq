@@ -1,13 +1,5 @@
 {% for project in site.pages reversed %}
    {% if project.type == 'project' %}
-    <li data-value="{{ project.priority }}" style="border: 1px solid red;">
-        <a href="{{ site.baseurl }}{{ project.url }}" class="project-thumbnail">
-            <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.title }}">
-            <div>
-                <p class="strong">{{ project.client }}</p>
-                <p>{{ project.skills }}</p>
-            </div>
-        </a>
-    </li>
+       {% include thumbnail.html %}
     {% endif %}
 {% endfor %}

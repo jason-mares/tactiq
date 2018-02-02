@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project-page
 type: project
 client: Heavy Metal Suspensions
 skills: Identity
