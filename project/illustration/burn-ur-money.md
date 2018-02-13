@@ -1,10 +1,11 @@
 ---
 layout: project-page
 type: project
+folder: illustration
 client: Burn Ur Money
-skills: Illustration
+skills: Infographic Illustration
 title: 8 Ways to Own the Zombie Apocalypse Infographic
-image: 
+image: zombies_th.jpg
 priority: 100
 ---
 

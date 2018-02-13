@@ -1,7 +1,12 @@
+@import 'mixins.less';
+
 nav {
     display: table !important;
     a {
         padding: 0.5em 0;
+        text-decoration: none;
+        font-size: 1.4em;
+        color: @blue !important;
     }
     #logo {
         display: table-cell;
@@ -18,6 +23,7 @@ nav {
             display: inline-block;
             a {
                 padding-left: 1em;
+                text-decoration: none;
             }
         }
     }

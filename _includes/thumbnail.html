@@ -1,8 +1,11 @@
 <li data-value="{{ project.priority }}">
     <a href="{{ site.baseurl }}{{ project.url }}" class="project-thumbnail">
-        <img src="{{ site.baseurl }}/{{ project.image }}" alt="{{ project.title }}">
+        <figure>
+            <img src="{{ site.baseurl }}/project/{{ project.folder }}/images/{{ project.image }}" alt="{{ project.title }}">
+        </figure>
         <div>
             <p class="strong">{{ project.client }}</p>
+            <br>
             <p>{{ project.skills }}</p>
         </div>
     </a>

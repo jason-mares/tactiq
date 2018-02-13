@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'IBM Plex Sans Bold';
+    src: url('/portfolio-jekyll/fonts/ibmplexsans-bold-webfont.woff2') format('woff2'),
+         url('/portfolio-jekyll/fonts/ibmplexsans-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@bold: 'IBM Plex Sans Bold', sans-serif;
+
+/////////////////////////////////////////////////////////////////////////////////////////////////// IBM Sans Italic
+@font-face {
+    font-family: 'IBM Plex Sans Italic';
+    src: url('/portfolio-jekyll/fonts/ibmplexsans-italic-webfont.woff2') format('woff2'),
+         url('/portfolio-jekyll/fonts/ibmplexsans-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+@italic: 'IBM Plex Sans Italic', sans-serif;
+
+/////////////////////////////////////////////////////////////////////////////////////////////////// IBM Sans
+@font-face {
+    font-family: 'IBM Plex Sans Light';
+//    src: url('/portfolio-jekyll/fonts/ibmplexsans-regular-webfont.woff2') format('woff2'),
+//         url('/portfolio-jekyll/fonts/ibmplexsans-regular-webfont.woff') format('woff');
+    src: url('/portfolio-jekyll/fonts/ibmplexsans-light-webfont.woff2') format('woff2'),
+         url('/portfolio-jekyll/fonts/ibmplexsans-light-webfont.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+
+}
+@regular: 'IBM Plex Sans Light', sans-serif;
+
+
+
+a {
+    text-decoration: underline;
+    -webkit-text-decoration-skip: ink;
+    text-decoration-skip: ink;
+    color: @red;
+    &:visited {
+        color: @red;
+    }
+}
+.center {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+} 

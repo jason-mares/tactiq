@@ -1,10 +1,11 @@
 ---
 layout: project-page
 type: project
+folder: identity
 client: Heavy Metal Suspensions
 skills: Identity
 title: Heavy Metal Suspensions Identity
-image: 
+image: heavy-metal_th.jpg
 priority: 100
 ---
 

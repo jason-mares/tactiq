@@ -2,11 +2,35 @@
 layout: default
 ---
 
+        <script>
+      $(function() {
+        // initiate slider
+        $("#slider2").responsiveSlides({
+            nav: true,
+            auto: false,
+            namespace: "large-btns"
+        });
+      });
+        
+        // lazy load
+//        $(document).ready(function() {
+//            $("img").unveil(500);
+//        });
+    </script>
+    
 <div id="hero">
     <div class="container">
-        <h2>Grow Your Business</h2>
-        <h2>Spread Your Message</h2>
-        <h2>Lead Your Industry</h2>
+        <div id="fixed">
+            <h2>Grow Your Business</h2>
+            <h2>Spread Your Message</h2>
+            <h2>Lead Your Industry</h2>
+        </div>
+        
+        <ul class="rslides" id="slider2">
+            <li><img src="{{ site.baseurl }}/images/placeholder.jpg" alt="Placeholder"></li>
+            <li><img src="{{ site.baseurl }}/images/placeholder.jpg" alt="Placeholder"></li>
+            <li><img src="{{ site.baseurl }}/images/placeholder.jpg" alt="Placeholder"></li>
+        </ul>
     </div>
 </div>
 
@@ -17,7 +41,7 @@ layout: default
         </div>
         <div class="one-half">
             <h3>The right solution gets the best results.</h3>
-            <p>Bridging the gap between strategy, design and development your priorities are understood and resolved by an all-in-one expert. Strategy aligns your user's goals with your goals, design is informed by research and your digital product is developed to pixel perfection by a developer with a designer's eye.</p>
+            <p>Bridging the gap between strategy, design and development your priorities are understood and resolved by an all-in-one expert. Strategy aligns your user's goals with your business goals, design is informed by research and your digital product is developed to pixel perfection by a developer with a designer's eye.</p>
             <a href="{{ site.baseurl }}/#">Browse Services ></a>
         </div>
     </section>
@@ -25,7 +49,7 @@ layout: default
         <ul id="work-list" class="clearfix">
           {% include project-thumbnail-home.html %}
         </ul>
-        <a href="{{ site.baseurl }}/work/">see more work...</a>
+        <center><a href="{{ site.baseurl }}/work/">see more work...</a></center>
     </section>
     <section id="testimonials"></section>
 </div>
@@ -35,6 +59,6 @@ layout: default
 
 <section id="start-project">
     <div class="container">
-        <center><a href="{{ site.baseurl }}/#" class="btn">Start a Project</a></center>
+        <center><a href="{{ site.baseurl }}/contact/" class="btn">Start a Project</a></center>
     </div>
 </section>

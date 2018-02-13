@@ -2,45 +2,49 @@
 @import 'scaffolding.less';
 @import 'normalize.less';
 @import 'navigation.less';
+@import 'work.less';
+@import 'slider.less';
 
-#work-list {
-    padding: 0;
-    list-style: none;
-    li {
-        width: 50%;
-        float: left;
+html,
+body {
+    font-family: @regular;
+    font-size: 13px;
+    line-height: 2;
+}
+
+
+/////////////// homepage
+#hero {
+    display: table;
+    margin: 0 auto;
+    .container {
+        height: 90vh;
+        display: table-cell;
+        vertical-align: middle;
         position: relative;
-        background-color: lightgrey;
-        padding-top: 33.33%;
-        border: 5px solid white;
-        box-sizing: border-box;
-        &:first-child {
-            width: 66.66%;
-            padding-top: 44.43%;
-        }
-        &:nth-child(2),
-        &:nth-child(3){
-            width: 33.33%;
-//            padding-top: 22.21%;
-            padding-top: 21.9%;
-        }
-        &:nth-child(3){
-            &:after{
-                content: '';
-                clear: both;
-                display: table;
-                table-layout: fixed;
-            }
-        }
-        a {
+        #fixed {
             position: absolute;
-            top: 0;
-            left: 0;
             bottom: 0;
-            right: 0;
-            img{
-                width: 100%;
-            }
+            left: 0;
+            z-index: 4;
+            color: @white;
         }
+    }
+}
+.current {
+    span {
+        border-bottom: 3px solid @blue; 
+    }
+}
+
+/////////////// contact
+form#contact {
+    width: 50%;
+    margin: 0 auto;
+    input,
+    textarea {
+        width: 100%;
+        display: block;
+        margin-bottom: @gutter/2;
     }
 }

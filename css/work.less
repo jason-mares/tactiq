@@ -1,0 +1,66 @@
+@import 'mixins.less';
+
+#work-list {
+    padding: 0;
+    list-style: none;
+    li {
+        width: 50%;
+        float: left;
+        position: relative;
+        border: 5px solid white;
+        border-bottom: 0px;
+        border-top: 0px;
+        box-sizing: border-box;
+        .responsiveMax(@tablet, {
+            width: 100% !important;
+        }
+        );
+        &:first-child {
+            width: 66.66%;
+        }
+        &:nth-child(2),
+        &:nth-child(3) {
+            width: 33.2%;
+        }
+        &:nth-child(3) {
+            &:after {
+                content: '';
+                clear: both;
+                display: table;
+                table-layout: fixed;
+            }
+        }
+        a {
+            display: block;
+            figure{
+                margin: 0;
+                padding: 0;
+                img {
+                    position: relative;
+                    width: 100%;
+                    transition: 0.5s ease all;
+                    opacity: 1;
+                    &:hover {
+                        opacity: 0.80;
+                        -webkit-filter: saturate(180%);
+                        filter: saturate(180%);
+                    }
+                }
+            }
+            div {
+                position: absolute;
+                bottom: @gutter;
+                p {
+                    display: inline-block;
+                    margin: 0 @gutter;
+                    background-color: @red;
+                    color: @white;
+                    &:first-child{
+                        font-family: @bold;
+                        font-family: 1.3em;
+                    }
+                }
+            }
+        }
+    }
+}

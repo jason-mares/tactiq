@@ -1,10 +1,11 @@
 ---
 layout: project-page
 type: project
+folder: identity
 client: The Bridge
 skills: Identity
 title: The Bridge Church Identity
-image: 
+image: the-bridge_th.jpg
 priority: 2
 ---
 
