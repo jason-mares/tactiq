@@ -1,3 +1,5 @@
+@import 'mixins.less';
+
 @font-face {
     font-family: 'IBM Plex Sans Bold';
     src: url('/portfolio-jekyll/fonts/ibmplexsans-bold-webfont.woff2') format('woff2'),
@@ -42,8 +44,41 @@ a {
         color: @red;
     }
 }
+
 .center {
     text-align: center;
     margin: 0 auto;
     display: block;
 } 
+
+.btn {
+    border-radius: @gutter*2;
+    border: 3px solid @red !important;
+    background-color: @white;
+    color: @red !important;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 1em 2em;
+    font-family: @bold;
+    margin: @gutter 0;
+    &.solid {
+        color: @white !important;
+        background-color: @red !important;
+    }
+}
+
+strong {
+    font-family: @bold;
+}
+
+
+.selection {
+    background-color: lighten(@red, 10%);
+    color: @white;
+}
+::selection {
+    .selection;
+}
+::-moz-selection {
+    .selection;
+}

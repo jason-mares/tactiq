@@ -3,7 +3,7 @@ layout: project-page
 type: project
 folder: web-design
 client: Supreme Suspensions
-skills: UI/UX, e-commerce, Front End Development
+skills: UI/UX, e-commerce, Shopify Theme Dev
 title: Supreme Suspensions
 image: supreme-suspensions_th.jpg
 priority: 1

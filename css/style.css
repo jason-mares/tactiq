@@ -31,6 +31,36 @@ a:visited {
   margin: 0 auto;
   display: block;
 }
+.btn {
+  border-radius: 60px;
+  border: 3px solid #f85452 !important;
+  background-color: #fafafa;
+  color: #f85452 !important;
+  text-decoration: none;
+  font-size: 1.3em;
+  padding: 1em 2em;
+  font-family: 'IBM Plex Sans Bold', sans-serif;
+  margin: 30px 0;
+}
+.btn.solid {
+  color: #fafafa !important;
+  background-color: #f85452 !important;
+}
+strong {
+  font-family: 'IBM Plex Sans Bold', sans-serif;
+}
+.selection {
+  background-color: #fa8483;
+  color: #fafafa;
+}
+::selection {
+  background-color: #fa8483;
+  color: #fafafa;
+}
+::-moz-selection {
+  background-color: #fa8483;
+  color: #fafafa;
+}
 /*
 ======================================================================================================================
 /////////////////////////////////////////////////////////////////////////////////////////////////////////// RESPONSIVE
@@ -960,16 +990,23 @@ object {
 }
 nav {
   display: table !important;
+  padding: 0 5px;
+  box-sizing: border-box;
 }
 nav a {
   padding: 0.5em 0;
   text-decoration: none;
   font-size: 1.4em;
   color: #292f83 !important;
+  transition: 0.3s ease all;
+}
+nav a:hover {
+  color: #f85452 !important;
 }
 nav #logo {
   display: table-cell;
   white-space: nowrap;
+  color: #f85452 !important;
 }
 nav ul {
   display: table-cell;
@@ -986,6 +1023,9 @@ nav ul li a {
   padding-left: 1em;
   text-decoration: none;
 }
+.current span {
+  font-family: 'IBM Plex Sans Bold', sans-serif;
+}
 #work-list {
   padding: 0;
   list-style: none;
@@ -1000,6 +1040,11 @@ nav ul li a {
   box-sizing: border-box;
 }
 @media (max-width: 768px) {
+  #work-list li {
+    width: 50% !important;
+  }
+}
+@media (max-width: 630px) {
   #work-list li {
     width: 100% !important;
   }
@@ -1038,6 +1083,7 @@ nav ul li a {
 #work-list li a div {
   position: absolute;
   bottom: 30px;
+  left: -15px;
 }
 #work-list li a div p {
   display: inline-block;
@@ -1303,6 +1349,7 @@ body {
   line-height: 2;
 }
 #hero {
+  display: NONE !IMPORTANT;
   display: table;
   margin: 0 auto;
 }
@@ -1319,9 +1366,6 @@ body {
   z-index: 4;
   color: #fafafa;
 }
-.current span {
-  border-bottom: 3px solid #292f83;
-}
 form#contact {
   width: 50%;
   margin: 0 auto;
@@ -1331,4 +1375,21 @@ form#contact textarea {
   width: 100%;
   display: block;
   margin-bottom: 15px;
+}
+body.project-page .one-quarter {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 30px;
+  padding-left: 30px;
+}
+body.project-page #project-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body.project-page #project-list img {
+  width: 100%;
+}
+body.project-page .btn {
+  display: block;
 }

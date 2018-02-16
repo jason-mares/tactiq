@@ -2,15 +2,22 @@
 
 nav {
     display: table !important;
+    padding: 0 5px;
+    box-sizing: border-box;
     a {
         padding: 0.5em 0;
         text-decoration: none;
         font-size: 1.4em;
         color: @blue !important;
+        transition: 0.3s ease all;
+        &:hover {
+            color: @red !important;
+        }
     }
     #logo {
         display: table-cell;
         white-space: nowrap;
+        color: @red !important;
     }
     ul {
         display: table-cell;
@@ -26,5 +33,11 @@ nav {
                 text-decoration: none;
             }
         }
+    }
+}
+
+.current {
+    span {
+        font-family: @bold;
     }
 }

@@ -12,6 +12,10 @@
         border-top: 0px;
         box-sizing: border-box;
         .responsiveMax(@tablet, {
+            width: 50% !important;
+        }
+        );
+        .responsiveMax(630px, {
             width: 100% !important;
         }
         );
@@ -50,6 +54,7 @@
             div {
                 position: absolute;
                 bottom: @gutter;
+                left: -@gutter/2;
                 p {
                     display: inline-block;
                     margin: 0 @gutter;
