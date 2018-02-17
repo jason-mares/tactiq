@@ -48,11 +48,33 @@ form#contact {
 
 /////////////// projects
 body.project-page{
+    .one-quarter,
+    .three-quarter {
+        .responsiveMax(1212px, {
+            padding: 0px;
+            width: 100% !important;
+        });
+    }
     .one-quarter {
-        position: -webkit-sticky;
-        position: sticky;
         top: @gutter;
         padding-left: @gutter;
+        .one-half {
+            width: 100%;
+            .responsiveMax(1212px, {
+                width: 50% !important;
+            });
+            .responsiveMax(550px, {
+                width: 100% !important;
+                padding-left: 0 !important;
+            });
+        }
+        .responsiveMax(550px, {
+            width: 100% !important;
+            padding-left: 0 !important;
+        });
+        
+    }
+    .three-quarter {
     }
     #project-list {
         list-style: none;
