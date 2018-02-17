@@ -9,4 +9,7 @@ image: zombies_th.jpg
 priority: 100
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+To ride a wave of media buzz for the season six premiere of The Walking Dead, Australian comedy/affiliate marketing website Burn Ur Money commisioned a zombie themed infographic. Teaming up with illustrator <a href="https://thatshowiparty.blogspot.com/" target="_blank">Stephen Yan</a>, we created an infographic that reflected the over-the-top pop culture comedy of the website.
+
+- Character & Prop Design by <a href="https://thatshowiparty.blogspot.com/" target="_blank">Stephen Yan</a>
+- Typesetting, Layout & Color by Jason Mares

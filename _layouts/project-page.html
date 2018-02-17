@@ -4,6 +4,9 @@
     <div class="container">
         <div class="three-quarter">
             <ul id="project-list">
+                <li>
+                    <img src="{{ site.baseurl }}/project/{{ page.folder }}/images/{{ page.image }}" alt="{{ page.title }}">
+                </li>
             {% for images in page.images %}
                 <li class="{{ page.images-class[forloop.index0] }}">
                     <img src="{{ site.baseurl }}/project/{{ page.folder }}/images/{{ page.images[forloop.index0] }}" alt="{{ page.images-alt[forloop.index0] }}">

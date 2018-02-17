@@ -9,7 +9,6 @@ image: heavy-metal_th.jpg
 priority: 100
 
 images: 
-  - heavy-metal_th.jpg
   - heavy-metal_4-type-color.png
   - heavy-metal_5-logos.png
   - heavy-metal_3-shirts.jpg
@@ -18,15 +17,14 @@ images:
   - heavy-metal_8-boxes.jpg
   - heavy-metal_1-ad.jpg
 images-alt:
-  - 'Heavy Metal Suspensios logo.'
-  - 'Heavy Metal Responsive Logo Set'
-  - 'Plastic is for Toys. - Heavy Metal Suspensions'
-  - 'Heavy Metal logo printed on box surface'
+  - 'Typography and Color'
+  - 'Responsive logo set'
+  - 'Shop shirt mockups'
+  - 'Favicon'
+  - 'Product Photo'
+  - 'Shipping Boxes'
+  - 'Plastic is for Toys ad piece'
 images-class:
-  - 'class1'
-  - 'class2'
-  - 'class3'
-  - 'class4'
 ---
 
 
