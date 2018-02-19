@@ -1038,6 +1038,13 @@ nav ul li a {
   border-bottom: 0px;
   border-top: 0px;
   box-sizing: border-box;
+  animation-name: slideLeft;
+  -webkit-animation-name: slideLeft;
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+  visibility: visible !important;
 }
 @media (max-width: 768px) {
   #work-list li {
@@ -1341,6 +1348,35 @@ pulse
 .large-btns_here a {
   background: #222;
   background: rgba(0, 0, 0, 0.8);
+}
+.slideLeft {
+  animation-name: slideLeft;
+  -webkit-animation-name: slideLeft;
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+  visibility: visible !important;
+}
+@keyframes slideLeft {
+  0% {
+    transform: translateY(10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes slideLeft {
+  0% {
+    -webkit-transform: translateY(10%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+    opacity: 1;
+  }
 }
 html,
 body {

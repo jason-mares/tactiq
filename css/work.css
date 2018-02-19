@@ -40,9 +40,26 @@ a:visited {
   font-size: 1.3em;
   padding: 1em 2em;
   font-family: 'IBM Plex Sans Bold', sans-serif;
+  margin: 30px 0;
+}
+.btn.solid {
+  color: #fafafa !important;
+  background-color: #f85452 !important;
 }
 strong {
   font-family: 'IBM Plex Sans Bold', sans-serif;
+}
+.selection {
+  background-color: #fa8483;
+  color: #fafafa;
+}
+::selection {
+  background-color: #fa8483;
+  color: #fafafa;
+}
+::-moz-selection {
+  background-color: #fa8483;
+  color: #fafafa;
 }
 /*
 ======================================================================================================================
@@ -182,6 +199,35 @@ strong {
   width: 0%;
   left: 50%;
 }
+.slideLeft {
+  animation-name: slideLeft;
+  -webkit-animation-name: slideLeft;
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+  visibility: visible !important;
+}
+@keyframes slideLeft {
+  0% {
+    transform: translateY(10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes slideLeft {
+  0% {
+    -webkit-transform: translateY(10%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+    opacity: 1;
+  }
+}
 #work-list {
   padding: 0;
   list-style: none;
@@ -194,6 +240,13 @@ strong {
   border-bottom: 0px;
   border-top: 0px;
   box-sizing: border-box;
+  animation-name: slideLeft;
+  -webkit-animation-name: slideLeft;
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+  visibility: visible !important;
 }
 @media (max-width: 768px) {
   #work-list li {

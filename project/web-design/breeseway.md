@@ -8,5 +8,9 @@ title: Breeseway Identity & Web Design
 image: breeseway_th.jpg
 priority: 3
 ---
-**BREESEWAY**
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Breeseway was the culmination of Thomas Breese's 40+ years in the door and hardware consulting industry, having served architects and building owners of some of the world's most iconic structures. As an independent consultant, Breeseway was free to recommend solutions to solve his clients problems vs. solutions his former bosses thought would increase their profits—a common problem his clients have to be aware of when choosing an expert to hire. An identity and website set out to solve the following problems:
+
+1. Position Breeseway as the "anti-corporate stooge"
+2. Convey seasoned experience
+3. A website that spoke to his clients needs and pain-points

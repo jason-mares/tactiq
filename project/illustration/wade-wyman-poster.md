@@ -9,4 +9,6 @@ image: supreme-illustrations_th.jpg
 priority: 100
 ---
 
-Wade Wyman. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+As Supreme Suspensions was growing, the CEO commissioned two 24x36" posters: the first was only meant only for internal use as an inspirational poster for the office, the other to promote Wade Wyman, a race truck driver the company was sponsoring. The Russian Propaganda piece was the internal poster designed to borrow and subvert traditional USSR propaganda posters. The Wade Wyman poster was inspired by the cool swagger of a Quintin Tarantino movie.
+
+Both posters ended up becoming promotional giveaways at race events and are now enjoying their new homes on the walls of thousands of garages, shops and bedrooms across the United States.
