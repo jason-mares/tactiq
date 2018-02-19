@@ -992,6 +992,8 @@ nav {
   display: table !important;
   padding: 0 5px;
   box-sizing: border-box;
+  top: 4px;
+  position: relative;
 }
 nav a {
   padding: 0.5em 0;
