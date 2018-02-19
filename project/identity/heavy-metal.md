@@ -15,6 +15,7 @@ images:
   - heavy-metal_6-favicon.jpg
   - heavy-metal_7-photo.jpg
   - heavy-metal_8-boxes.jpg
+  - heavy-metal_9-aluminum.jpg
   - heavy-metal_1-ad.jpg
 images-alt:
   - 'Typography and Color'
