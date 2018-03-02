@@ -906,7 +906,7 @@ nav a {
   text-decoration: none;
   color: #292f83 !important;
   transition: 0.3s ease all;
-  font-weight: 75;
+  font-weight: bold !important;
 }
 nav a:hover {
   color: #f85452 !important;
