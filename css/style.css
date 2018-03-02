@@ -1350,6 +1350,11 @@ a:visited {
   margin: 0 auto;
   display: block;
 }
+.right {
+  text-align: right;
+  margin: 0 0 0 auto !important;
+  float: right;
+}
 .btn {
   position: relative;
   border: none;
@@ -1461,6 +1466,8 @@ body {
 }
 form#contact {
   margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
 }
 form#contact input,
 form#contact textarea {
@@ -1468,6 +1475,8 @@ form#contact textarea {
   display: block;
   margin-bottom: 15px;
   padding: 15px;
+  border: 2px solid #c0c3eb;
+  outline: 0;
 }
 form#contact textarea {
   min-height: 200px;

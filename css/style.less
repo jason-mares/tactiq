@@ -50,12 +50,16 @@ body {
 /////////////// contact
 form#contact {
     margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
     input,
     textarea {
         width: 100%;
         display: block;
         margin-bottom: @gutter/2;
         padding: @gutter/2;
+        border: 2px solid lighten(@blue, 50%);
+        outline: 0;
     }
     textarea {
         min-height: 200px;
