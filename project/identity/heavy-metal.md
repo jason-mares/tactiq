@@ -6,7 +6,7 @@ client: Heavy Metal Suspensions
 skills: Identity
 title: Heavy Metal Suspensions Rebrand
 image: heavy-metal_th.jpg
-priority: 100
+priority: 3
 
 images: 
   - heavy-metal_4-type-color.png
@@ -15,7 +15,6 @@ images:
   - heavy-metal_6-favicon.jpg
   - heavy-metal_7-photo.jpg
   - heavy-metal_8-boxes.jpg
-  - heavy-metal_9-aluminum.jpg
   - heavy-metal_1-ad.jpg
 images-alt:
   - 'Typography and Color'

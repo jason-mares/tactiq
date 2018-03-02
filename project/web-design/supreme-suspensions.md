@@ -12,7 +12,6 @@ images:
   - supreme-suspensions_7-mechanic-on-website.jpg
   - supreme-suspensions_1-type-color.png
   - supreme-suspensions_2-logo-evolution.png
-  - supreme-suspensions_3-UI-sketch.jpg
   - supreme-suspensions_4-UI-sketch.jpg
   - supreme-suspensions_5-Sketch-UI.jpg
   - supreme-suspensions_6-mobile-website.jpg

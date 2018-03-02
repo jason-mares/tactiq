@@ -1,8 +1,8 @@
-<nav class="container">
-    <a href="{{site.baseurl}}/" id="logo" title="Jason Mares, Graphic Designer & Front End Developer">jason <strong>mares</strong></a>
+<nav class="navigation container">
     <ul>
-        <li class="{% if page.url == '/work/' %}current{% endif %}"><a href="{{ site.baseurl }}/work/"><span>work</span></a></li>
-        <li class="{% if page.url == '/about/' %}current{% endif %}"><a href="{{ site.baseurl }}/about/"><span>about</span></a></li>
-        <li class="{% if page.url == '/contact/' %}current{% endif %}"><a href="{{ site.baseurl }}/contact/"><span>contact</span></a></li>
+        <li><a href="{{ site.baseurl }}/" class="nav-link"><span>work</span></a></li>
+        <li><a href="{{ site.baseurl }}/about/" class="nav-link"><span>about</span></a></li>
+        <li><a href="{{ site.baseurl }}/contact/" class="nav-link"><span>contact</span></a></li>
     </ul>
+    <span id="logo" title="Jason Mares, Graphic Designer & Front End Developer">jason mares</span>
 </nav>

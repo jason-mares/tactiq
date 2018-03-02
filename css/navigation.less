@@ -6,12 +6,14 @@ nav {
     box-sizing: border-box;
     top: 4px;
     position: relative;
+    font-size: 1.2em;
+    font-weight: bold;
     a {
         padding: 0.5em 0;
         text-decoration: none;
-        font-size: 1.4em;
         color: @blue !important;
         transition: 0.3s ease all;
+        font-weight: 75;
         &:hover {
             color: @red !important;
         }
@@ -26,12 +28,12 @@ nav {
         list-style: none;
         padding: 0;
         margin: 0;
-        text-align: right;
+        text-align: left;
         width: 100%;
         li {
             display: inline-block;
             a {
-                padding-left: 1em;
+                padding-right: 1em;
                 text-decoration: none;
             }
         }
@@ -39,7 +41,14 @@ nav {
 }
 
 .current {
-    span {
-        font-family: @bold;
-    }
+    color: @red;
+}
+
+footer {
+    padding: @gutter 0 !important;
+    opacity: 0.5;
+    .responsiveMax(@large, {
+        width: 100%;
+        padding: @gutter 1.25em !important;
+    });
 }

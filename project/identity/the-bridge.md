@@ -7,6 +7,18 @@ skills: Identity
 title: The Bridge Identity Design
 image: the-bridge_th.jpg
 priority: 2
+
+images: 
+  - the-bridge_1-type-color.png
+  - the-bridge_4-logos.png
+  - the-bridge_2-message.png
+images-alt:
+  - 'Typography and Color'
+images-class:
 ---
 
-The Bridge was eager to break ground on property it had finally been given the right to build on after years of lengthy litigation and costly moves. To celebrate the building of a new home coinciding with its 60 year anniversary, an identity refresh was commissioned to commemorate its history, welcome newcomers and celebrate the different congregations that had grown into a tight-knit community.
+After merging with many other congregations, The Bridge had grown into a multi-ethic, diverse community and even began offering services entirely in Spanish. With a mission of reaching all people of all races, backgrounds and incomes, a design refresh aimed to position The Bridge as a future focused church for those looking for a more down to earth experience. To acheive this goal, three key design decisions were made:
+
+1. Roboto was chosen as the main typeface for its support for nearly every language on earth.
+2. More energetic colors were introduced to line with the church's motto of "Accepting, Engaging, Fulfilling."
+3. Logo was simplified to act as mark of a message rather than the message itself.

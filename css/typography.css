@@ -22,6 +22,7 @@ a {
   -webkit-text-decoration-skip: ink;
   text-decoration-skip: ink;
   color: #f85452;
+  outline: 0 !important;
 }
 a:visited {
   color: #f85452;
@@ -32,22 +33,70 @@ a:visited {
   display: block;
 }
 .btn {
-  border-radius: 60px;
-  border: 3px solid #f85452 !important;
-  background-color: #fafafa;
+  position: relative;
+  border: none;
+  background-color: #FFFFFF;
   color: #f85452 !important;
   text-decoration: none;
   font-size: 1.3em;
   padding: 1em 2em;
-  font-family: 'IBM Plex Sans Bold', sans-serif;
   margin: 30px 0;
+  transition: 0.3s ease border-radius;
+  outline: 0;
 }
-.btn.solid {
+.btn:after {
+  content: '';
+  transition: 0.5s ease all;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f85452;
+  animation: roundedCornersRev 0.5s ease forwards;
+}
+.btn:hover {
   color: #fafafa !important;
-  background-color: #f85452 !important;
+  background-color: transparent;
+}
+.btn:hover:after {
+  height: 100%;
+  z-index: -1;
+  animation: roundedCorners 0.5s ease forwards;
+}
+.roundedCorners {
+  animation: roundedCorners 0.5s ease forwards;
+}
+@keyframes roundedCorners {
+  0% {
+    height: 3px;
+  }
+  50% {
+    height: 100%;
+    border-radius: 0;
+  }
+  100% {
+    border-radius: 30px;
+    background-color: #292f83;
+  }
+}
+.roundedCornersRev {
+  animation: roundedCornersRev 0.5s ease forwards;
+}
+@keyframes roundedCornersRev {
+  0% {
+    border-radius: 30px;
+    background-color: #292f83;
+  }
+  50% {
+    height: 100%;
+  }
+  100% {
+    border-radius: 0;
+    height: 3px;
+  }
 }
 strong {
-  font-family: 'IBM Plex Sans Bold', sans-serif;
+  font-family: 'Helvetica Neue Bold', 'IBM Plex Sans Bold', sans-serif;
 }
 .selection {
   background-color: #fa8483;
@@ -222,6 +271,7 @@ a {
   -webkit-text-decoration-skip: ink;
   text-decoration-skip: ink;
   color: #f85452;
+  outline: 0 !important;
 }
 a:visited {
   color: #f85452;
@@ -232,22 +282,70 @@ a:visited {
   display: block;
 }
 .btn {
-  border-radius: 60px;
-  border: 3px solid #f85452 !important;
-  background-color: #fafafa;
+  position: relative;
+  border: none;
+  background-color: #FFFFFF;
   color: #f85452 !important;
   text-decoration: none;
   font-size: 1.3em;
   padding: 1em 2em;
-  font-family: 'IBM Plex Sans Bold', sans-serif;
   margin: 30px 0;
+  transition: 0.3s ease border-radius;
+  outline: 0;
 }
-.btn.solid {
+.btn:after {
+  content: '';
+  transition: 0.5s ease all;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f85452;
+  animation: roundedCornersRev 0.5s ease forwards;
+}
+.btn:hover {
   color: #fafafa !important;
-  background-color: #f85452 !important;
+  background-color: transparent;
+}
+.btn:hover:after {
+  height: 100%;
+  z-index: -1;
+  animation: roundedCorners 0.5s ease forwards;
+}
+.roundedCorners {
+  animation: roundedCorners 0.5s ease forwards;
+}
+@keyframes roundedCorners {
+  0% {
+    height: 3px;
+  }
+  50% {
+    height: 100%;
+    border-radius: 0;
+  }
+  100% {
+    border-radius: 30px;
+    background-color: #292f83;
+  }
+}
+.roundedCornersRev {
+  animation: roundedCornersRev 0.5s ease forwards;
+}
+@keyframes roundedCornersRev {
+  0% {
+    border-radius: 30px;
+    background-color: #292f83;
+  }
+  50% {
+    height: 100%;
+  }
+  100% {
+    border-radius: 0;
+    height: 3px;
+  }
 }
 strong {
-  font-family: 'IBM Plex Sans Bold', sans-serif;
+  font-family: 'Helvetica Neue Bold', 'IBM Plex Sans Bold', sans-serif;
 }
 .selection {
   background-color: #fa8483;

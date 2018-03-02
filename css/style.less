@@ -5,6 +5,7 @@
 @import 'work.less';
 @import 'slider.less';
 @import 'animation.less';
+@import 'typography.less';
 
 html,
 body {
@@ -13,6 +14,9 @@ body {
     line-height: 2;
 }
 
+.wrapper {
+    min-height: 100vh;
+}
 
 /////////////// homepage
 #hero {
@@ -35,22 +39,34 @@ body {
     }
 }
 
+/////////////// about
+.About {
+    .bold {
+        font-size: 1.2em;
+        margin-bottom: -10px;
+    }
+}
+
 /////////////// contact
 form#contact {
-    width: 50%;
     margin: 0 auto;
     input,
     textarea {
         width: 100%;
         display: block;
         margin-bottom: @gutter/2;
+        padding: @gutter/2;
+    }
+    textarea {
+        min-height: 200px;
     }
 }
 
 /////////////// projects
-body.project-page{
+.project-page{
     .one-quarter,
     .three-quarter {
+        margin-top: 1em;
         .responsiveMax(1212px, {
             padding: 0px;
             width: 100% !important;
@@ -59,28 +75,31 @@ body.project-page{
     .one-quarter {
         top: @gutter;
         padding-left: @gutter;
-        .one-half {
-            width: 100%;
-            .responsiveMax(1212px, {
-                width: 50% !important;
-            });
-            .responsiveMax(550px, {
-                width: 100% !important;
-                padding-left: 0 !important;
-            });
-        }
-        .responsiveMax(550px, {
-            width: 100% !important;
-            padding-left: 0 !important;
+        
+        .responsiveMax(1212px, {
+            display: none;
         });
         
     }
-    .three-quarter {
+    .mobile {
+        display: none;
+        .responsiveMax(1212px, {
+            display: block;
+            width: 50%;
+            margin: 0 auto;
+        });
+        .responsiveMax(550px, {
+            width: 100% !important;
+        });
     }
     #project-list {
         list-style: none;
         margin: 0;
         padding: 0;
+        li {
+            padding: 0;
+            margin: 0;
+        }
         img {
             width: 100%;
         }
@@ -89,3 +108,60 @@ body.project-page{
         display: block;
     }
 }
+.call-to-action {
+    text-align: left;
+    h3 {
+        font-size: 2em;
+        color: @red;
+    }
+    a {
+        font-size: 1.5em;
+    }
+}
+
+.reveal {
+    opacity: 0;
+    transition: 1s ease all;
+}
+.visible {
+    .slideLeft;
+    opacity: 1;
+}
+
+
+.fade-out {
+    animation: fade-out 0.3s ease forwards !important;
+}
+.fade-in {
+    animation: fade-in 0.3s ease forwards;
+}
+
+@keyframes fade-out {
+      0% {
+          opacity: 1;
+          transform: translateY(0%);
+         } 
+    100% {
+          opacity: 0;
+          transform: translateY(-55px);
+         }
+}
+
+@keyframes fade-in {
+      0% {
+          opacity: 0;
+          transform: translateY(21px);
+         }
+    100% {
+          opacity: 1;
+          transform: translateY(0%);
+         }
+}
+
+
+
+
+
+
+
+

@@ -1,8 +1,10 @@
 {% include header.html %}
 
 
-<div class="wrapper">
-    {{content}}
+<div id="barba-wrapper" class="wrapper">
+    <div class="barba-container {{ page.layout }} {{ page.folder }} {{ page.type }}">
+        {{content}}
+    </div>
 </div>
 
 

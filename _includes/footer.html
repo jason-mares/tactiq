@@ -1,5 +1,31 @@
-<footer>
-    {% include nav.html %}
+<script>
+    $('document').ready(function(){
+        Barba.Pjax.start();
+        var Page = Barba.BaseView.extend({
+          namespace: 'page',
+          onEnter: function() {
+              function sort_li(a, b){
+                  return ($(b).data('value')) < ($(a).data('value')) ? 1 : -1;
+              }
+              $("#work-list li").sort(sort_li).appendTo('#work-list');
+          }
+        });
+
+        Page.init();
+        Barba.Prefetch.init();
+        
+        Barba.Dispatcher.on('newPageReady', function() {
+            window.scroll({
+                top: 0,
+                left: 0,
+                behavior: 'smooth'
+            });   
+        });
+    });
+</script>
+  
+<footer class="container">
+    &copy;2018 Jason Mares
 </footer>
 
 </body>

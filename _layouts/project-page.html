@@ -1,32 +1,34 @@
 {% include header.html %}
 
-<div class="wrapper">
-    <div class="container">
+<div id="barba-wrapper" class="wrapper">
+    <div class="barba-container container {{ page.layout }} {{ page.folder }} {{ page.type }}">
         <div class="three-quarter">
             <ul id="project-list">
                 <li>
                     <img src="{{ site.baseurl }}/project/{{ page.folder }}/images/{{ page.image }}" alt="{{ page.title }}">
                 </li>
+                <li class="mobile">
+                    <h2>{{ page.title }}</h2>
+                    {{ content }}
+                    <br>
+                </li>
             {% for images in page.images %}
                 <li class="{{ page.images-class[forloop.index0] }}">
-                    <img src="{{ site.baseurl }}/project/{{ page.folder }}/images/{{ page.images[forloop.index0] }}" alt="{{ page.images-alt[forloop.index0] }}">
+                    <img src="{{ site.baseurl }}/project/{{ page.folder }}/images/{{ page.images[forloop.index0] }}" alt="{{ page.images-alt[forloop.index0] }}" class="reveal">
                 </li>
             {% endfor %}
             </ul>
         </div>
         <div class="one-quarter slideLeft">
-            <div class="one-half project-overview">
-                <h2>{{ page.title }}</h2>
-                {{ content }}
-                <br>
-            </div>
-            <div class="one-half center">
-                <h3>Like what you see?</h3>
-                <a href="{{ site.baseurl }}/contact/" class="btn">Start a Project</a>
-                <a href="{{ site.baseurl }}/contact/" class="btn solid">Set up a Meeting</a>
-            </div>
+            <h2>{{ page.title }}</h2>
+            {{ content }}
+            <br>
         </div>
         <div class="clear"></div>
+        <div class="call-to-action">
+            <a href="{{ site.baseurl }}/contact/">Start a Project</a><br>
+            <a href="{{ site.baseurl }}/contact/">Set up a Meeting</a>
+        </div>
     </div>
 </div>
 

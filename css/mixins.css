@@ -187,6 +187,7 @@ a {
   -webkit-text-decoration-skip: ink;
   text-decoration-skip: ink;
   color: #f85452;
+  outline: 0 !important;
 }
 a:visited {
   color: #f85452;
