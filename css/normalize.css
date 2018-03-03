@@ -197,6 +197,8 @@ h4,
 h5,
 h6 {
   clear: both;
+  font-weight: 75;
+  line-height: 1.25;
 }
 p {
   margin-bottom: 1.5em;

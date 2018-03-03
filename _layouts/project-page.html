@@ -2,16 +2,30 @@
 
 <div id="barba-wrapper" class="wrapper">
     <div class="barba-container container {{ page.layout }} {{ page.folder }} {{ page.type }}">
-        <div class="three-quarter">
+        <div class="at-a-glance one-full clearfix">
+            <div class="title one-half">
+                <h1>{{ page.client }}</h1>
+                <h4>{{ page.skills }}</h4>
+            </div>
+            <div class="one-half">
+                <h2>{{ page.description }}</h2>
+            </div>
+        </div>
+        <div class="one-full">
             <ul id="project-list">
                 <li>
                     <img src="{{ site.baseurl }}/project/{{ page.folder }}/images/{{ page.image }}" alt="{{ page.title }}">
                 </li>
-                <li class="mobile">
-                    <h2>{{ page.title }}</h2>
-                    {{ content }}
-                    <br>
+                
+            {% for testimonial in page.testimonial %}
+                <li class="one-half clearfix">
+                    <blockquote>
+                        <h2>"{{ page.testimonial[forloop.index0] }}"</h2>
+                        <span>- {{ page.testimonial-author[forloop.index0] }}</span>
+                    </blockquote>
                 </li>
+            {% endfor %}
+            
             {% for images in page.images %}
                 <li class="{{ page.images-class[forloop.index0] }}">
                     <img src="{{ site.baseurl }}/project/{{ page.folder }}/images/{{ page.images[forloop.index0] }}" alt="{{ page.images-alt[forloop.index0] }}" class="reveal">
@@ -19,14 +33,32 @@
             {% endfor %}
             </ul>
         </div>
-        <div class="one-quarter slideLeft">
-            <h2>{{ page.title }}</h2>
-            {{ content }}
-            <br>
+        <div class="project-background clearfix">
+            <div class="one-half">
+                <h2>Project Background</h2>
+                {{ content }}
+                <br>
+                <hr>
+                <ul class="footnotes clearfix">
+                    <li>
+                        <h4>Client</h4>
+                        <p>{{ page.client }}</p>
+                    </li>
+                    <li>
+                        <h4>Industry</h4>
+                        <p>{{ page.industry }}</p>
+                    </li>
+                    <li>
+                        <h4>Discipline</h4>
+                        <p>{{ page.skills }}</p>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </div>
         </div>
         <div class="clear"></div>
         <div class="call-to-action clearfix">
-            <a href="{{ site.baseurl }}/">&larr; Back to Work</a>
+            <a href="{{ site.baseurl }}/">&larr; <span>Back to Work</span></a>
         </div>
     </div>
 </div>

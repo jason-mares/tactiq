@@ -3,8 +3,10 @@ layout: project-page
 type: project
 folder: web-design
 client: Supreme Suspensions
+industry: Automotive
 skills: UI/UX, Shopify Theme Dev, Branding
 title: Supreme Suspensions Website Design & Brand Development
+description: Refining a brand for an aftermarket lift kit company to increase recognition along with a custom built website to boost conversion rates.
 image: supreme-suspensions_th.jpg
 priority: 1
 
@@ -26,7 +28,7 @@ images-alt:
 images-class:
 ---
 
-The flagship brand of a lift kit and accessories manufacturer, Supreme Suspensions™ wanted to earn more revenue as their WordPress shop was beginning to show its age. Brand confusion was compounded when the multi-million dollar brand had no established style guide and a team of designers adhering to different styles. We set out to design solutions for these four problems:
+The flagship brand of a lift kit and accessories manufacturer, Supreme Suspensions™ wanted to earn more revenue as their WordPress shop was beginning to show its age. Brand confusion was compounded when the multi-million dollar brand had no established style guide and a team of designers adhering to different styles. Solutions were desined to alleviate four problems:
 
 1. Create style guide to align team with the goal of increasing ad and marketing effectiveness.
 2. Redesign a mobile-first website with a 2% conversion rate goal.

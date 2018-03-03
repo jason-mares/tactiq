@@ -101,7 +101,7 @@ a:visited {
   }
 }
 strong {
-  font-family: 'Helvetica Neue Bold', 'IBM Plex Sans Bold', sans-serif;
+  font-family: 'Helvetica Neue Bold', Helvetica, Arial, sans-serif;
 }
 .selection {
   background-color: #fa8483;
@@ -121,10 +121,10 @@ strong {
 ======================================================================================================================
 */
 .container {
-  width: 1638px;
+  width: 1500px;
   margin: 0 auto;
 }
-@media (max-width: 1638px) {
+@media (max-width: 1500px) {
   .container {
     width: 100%;
     padding: 0 1.25em;
@@ -355,7 +355,7 @@ a:visited {
   }
 }
 strong {
-  font-family: 'Helvetica Neue Bold', 'IBM Plex Sans Bold', sans-serif;
+  font-family: 'Helvetica Neue Bold', Helvetica, Arial, sans-serif;
 }
 .selection {
   background-color: #fa8483;
