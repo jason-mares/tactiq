@@ -39,6 +39,34 @@ body {
 
 /////////////// about
 .About {
+    .responsiveMax (@desktop, {
+        > .one-third {
+            display: none;
+        }
+        > .two-third {
+            width: 100%;
+        }
+    });
+    .responsiveMax (@mobile, {
+        .one-third ,
+        .two-third {
+            padding: 0;
+        }
+    });
+    > .two-third {
+        margin: 0 auto;
+        float: none;
+    }
+    ul {
+        margin: 0;
+        padding: 0 0 0 1em;
+        .responsiveMax (@mobile, {
+            margin-left: 1em;
+        });
+    }
+    hr {
+        margin: 3em 0;
+    }
     .bold {
         font-size: 1.2em;
         margin-bottom: -10px;

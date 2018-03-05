@@ -1452,6 +1452,36 @@ body {
   z-index: 4;
   color: #fafafa;
 }
+@media (max-width: 1024px) {
+  .About > .one-third {
+    display: none;
+  }
+  .About > .two-third {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .About .one-third,
+  .About .two-third {
+    padding: 0;
+  }
+}
+.About > .two-third {
+  margin: 0 auto;
+  float: none;
+}
+.About ul {
+  margin: 0;
+  padding: 0 0 0 1em;
+}
+@media (max-width: 480px) {
+  .About ul {
+    margin-left: 1em;
+  }
+}
+.About hr {
+  margin: 3em 0;
+}
 .About .bold {
   font-size: 1.2em;
   margin-bottom: -10px;
