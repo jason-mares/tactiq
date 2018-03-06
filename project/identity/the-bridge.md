@@ -15,7 +15,9 @@ images:
   - the-bridge_4-logos.png
   - the-bridge_2-message.png
 images-alt:
-  - 'Typography and Color'
+  - 'The Bridge Typography and Color'
+  - 'The Bridge Logos'
+  - 'The Bridge Tagline'
 images-class:
 ---
 

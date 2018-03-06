@@ -14,31 +14,31 @@ function sort_li(a, b){
 
 
 // Page Transitions
-    var FadeTransition = Barba.BaseTransition.extend({
-      start: function() {
-        Promise
-          .all([this.newContainerLoading, this.fadeOut()])
-          .then(this.fadeIn.bind(this));
-      },
+var FadeTransition = Barba.BaseTransition.extend({
+  start: function() {
+    Promise
+      .all([this.newContainerLoading, this.fadeOut()])
+      .then(this.fadeIn.bind(this));
+  },
 
-      fadeOut: function() {
-            $(this.oldContainer).toggleClass('fade-out');
+  fadeOut: function() {
+        $(this.oldContainer).toggleClass('fade-out');
 
-            return new Promise(function(resolve, reject) {
-                window.setTimeout(function() {
-                   resolve();
-                }, 300);
-            });
-        },
-      fadeIn: function() {
-        $(this.newContainer).toggleClass('fade-in');
-        this.done();
-      }
-    });
+        return new Promise(function(resolve, reject) {
+            window.setTimeout(function() {
+               resolve();
+            }, 300);
+        });
+    },
+  fadeIn: function() {
+    $(this.newContainer).toggleClass('fade-in');
+    this.done();
+  }
+});
 
-    Barba.Pjax.getTransition = function() {
-      return FadeTransition;
-    };
+Barba.Pjax.getTransition = function() {
+  return FadeTransition;
+};
 
 
 

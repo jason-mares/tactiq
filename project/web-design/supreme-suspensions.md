@@ -25,6 +25,16 @@ images:
 images-alt:
   - 'Typography & Color.'
   - 'Evolution of the logo.'
+  - 'Logo evolution.'
+  - 'UI Sketches of Supreme website.'
+  - 'Sketch to Mobile Design.'
+  - 'Mobile website designs.'
+  - 'Mobile Website Hi-Fi Design.'
+  - 'Responsive Showcase.'
+  - 'Style Guide Photo.'
+  - 'Sunset photo composite taken from industrial parking lot.'
+  - 'Mountain photo composite taken from open parking lot.'
+  - 'Beach photo composite.'
 images-class:
 ---
 
