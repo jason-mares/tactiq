@@ -325,8 +325,13 @@ input[type="datetime"],
 input[type="datetime-local"],
 input[type="color"],
 textarea {
-  color: #666;
-  font-family: 'Work Sans', sans-serif;
+  color: #111;
+  box-shadow: 0 !important;
+  -webkit-box-shadow: 0 !important;
+  -moz-box-shadow: 0 !important;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -webkit-appearance: none;
 }
 select {
   border: 1px solid #ccc;
