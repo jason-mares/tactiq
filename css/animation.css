@@ -24,3 +24,42 @@
     opacity: 1;
   }
 }
+.bounce {
+  animation-name: bounce;
+  -webkit-animation-name: bounce;
+  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  visibility: visible !important;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0px) rotate(45deg);
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(3px) rotate(45deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(45deg);
+    opacity: 0.55;
+  }
+}
+@-webkit-keyframes bounce {
+  0% {
+    transform: translateY(0px) rotate(45deg);
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(3px) rotate(45deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(45deg);
+    opacity: 0.55;
+  }
+}

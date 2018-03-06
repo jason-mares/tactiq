@@ -50,6 +50,7 @@ $(document).on("scroll", function () {
   var pageTop = $(document).scrollTop()
   var pageBottom = pageTop + $(window).height()
   var tags = $(".reveal")
+  var tag2 = $(".hide")
 
   for (var i = 0; i < tags.length; i++) {
     var tag = tags[i]
@@ -60,4 +61,14 @@ $(document).on("scroll", function () {
       $(tag).removeClass("visible")
     }
   }
-})
+
+  for (var i = 0; i < tag2.length; i++) {
+    var tag1 = tag2[i]
+
+    if ($(tag1).position().top < pageBottom) {
+      $(tag1).addClass("invisible")
+    } else {
+      $(tag1).removeClass("invisible")
+    }
+  }
+});

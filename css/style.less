@@ -73,6 +73,10 @@ body {
     }
 }
 
+
+
+
+
 /////////////// contact
 form#contact {
     margin: 0 auto;
@@ -143,6 +147,9 @@ form#contact {
         li {
             padding: 0;
             margin: 0;
+            &:first-child {
+                position: relative;
+            }
         }
         img {
             width: 100%;
@@ -164,6 +171,30 @@ form#contact {
             p {
                 margin: 0;
             }
+        }
+    }
+    
+    #scrollIndicator {
+        text-align: center;
+        padding: 2em 0 1em 0;
+        opacity: 1;
+        transition: 0.5s ease all;
+        text-transform: uppercase;
+        font-weight: bold;
+        z-index: 99;
+        right: 0;
+        left: 0;
+        position: absolute;
+        &:after{
+            .bounce;
+            content: '';
+            border: solid @red;
+            border-width: 0 5px 5px 0;
+            display: inline-block;
+            padding: 13px;
+        }
+        &.invisible {
+            opacity: 0 !important;
         }
     }
 }

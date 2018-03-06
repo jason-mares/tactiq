@@ -1318,6 +1318,45 @@ pulse
     opacity: 1;
   }
 }
+.bounce {
+  animation-name: bounce;
+  -webkit-animation-name: bounce;
+  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  visibility: visible !important;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0px) rotate(45deg);
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(3px) rotate(45deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(45deg);
+    opacity: 0.55;
+  }
+}
+@-webkit-keyframes bounce {
+  0% {
+    transform: translateY(0px) rotate(45deg);
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(3px) rotate(45deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(45deg);
+    opacity: 0.55;
+  }
+}
 @font-face {
   font-family: 'IBM Plex Sans Bold';
   src: url('/portfolio-jekyll/fonts/ibmplexsans-bold-webfont.woff2') format('woff2'), url('/portfolio-jekyll/fonts/ibmplexsans-bold-webfont.woff') format('woff');
@@ -1568,6 +1607,9 @@ form#contact textarea {
   padding: 0;
   margin: 0;
 }
+.project-page.container #project-list li:first-child {
+  position: relative;
+}
 .project-page.container #project-list img {
   width: 100%;
 }
@@ -1586,6 +1628,37 @@ form#contact textarea {
 }
 .project-page.container .project-background .footnotes p {
   margin: 0;
+}
+.project-page.container #scrollIndicator {
+  text-align: center;
+  padding: 2em 0 1em 0;
+  opacity: 1;
+  transition: 0.5s ease all;
+  text-transform: uppercase;
+  font-weight: bold;
+  z-index: 99;
+  right: 0;
+  left: 0;
+  position: absolute;
+}
+.project-page.container #scrollIndicator:after {
+  animation-name: bounce;
+  -webkit-animation-name: bounce;
+  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  visibility: visible !important;
+  content: '';
+  border: solid #f85452;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 13px;
+}
+.project-page.container #scrollIndicator.invisible {
+  opacity: 0 !important;
 }
 .call-to-action {
   text-align: left;
