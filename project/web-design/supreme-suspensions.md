@@ -19,6 +19,14 @@ images:
   - supreme-suspensions_6-mobile-website.jpg
   - supreme-suspensions_10-responsive.jpg
   - supreme-suspensions_9-style-guide.jpg
+  - supreme-suspensions_11.1-catalog-min.jpg
+  - supreme-suspensions_11.1.2-catalog-min.jpg
+  - supreme-suspensions_11.2-catalog-min.jpg
+  - supreme-suspensions_11.3-catalog-min.jpg
+  - supreme-suspensions_11.4-catalog-min.jpg
+  - supreme-suspensions_11.5-catalog-min.jpg
+  
+  
   - supreme-suspensions_8.1-photo-composite.jpg
   - supreme-suspensions_8.2-photo-composite.jpg
   - supreme-suspensions_8.3-photo-composite.jpg
