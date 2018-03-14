@@ -4,7 +4,7 @@ type: project
 folder: web-design
 client: Supreme Suspensions
 industry: Automotive
-skills: UI/UX, Shopify Theme Dev, Branding
+skills: UI/UX, Shopify Theme Dev, Branding & Print
 title: Supreme Suspensions Website Design & Brand Development
 description: Refining a brand for an aftermarket lift kit company to increase recognition along with a custom built website to boost conversion rates.
 image: supreme-suspensions_th.jpg
