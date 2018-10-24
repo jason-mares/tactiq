@@ -101,7 +101,7 @@ a:visited {
   }
 }
 strong {
-  font-family: 'Helvetica Neue Bold', 'IBM Plex Sans Bold', sans-serif;
+  font-family: 'Helvetica Neue Bold', Helvetica, Arial, sans-serif;
 }
 .selection {
   background-color: #fa8483;
@@ -121,10 +121,10 @@ strong {
 ======================================================================================================================
 */
 .container {
-  width: 1638px;
+  width: 1500px;
   margin: 0 auto;
 }
-@media (max-width: 1638px) {
+@media (max-width: 1500px) {
   .container {
     width: 100%;
     padding: 0 1.25em;
@@ -264,22 +264,57 @@ strong {
 }
 @keyframes slideLeft {
   0% {
-    transform: translateY(13px);
     opacity: 0;
   }
   100% {
-    transform: translateY(0px);
     opacity: 1;
   }
 }
 @-webkit-keyframes slideLeft {
   0% {
-    -webkit-transform: translateY(13px);
     opacity: 0;
   }
   100% {
-    -webkit-transform: translateY(0px);
     opacity: 1;
+  }
+}
+.bounce {
+  animation-name: bounce;
+  -webkit-animation-name: bounce;
+  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  visibility: visible !important;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0px) rotate(45deg);
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(3px) rotate(45deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(45deg);
+    opacity: 0.55;
+  }
+}
+@-webkit-keyframes bounce {
+  0% {
+    transform: translateY(0px) rotate(45deg);
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(3px) rotate(45deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(45deg);
+    opacity: 0.55;
   }
 }
 #work-list {

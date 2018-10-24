@@ -6,7 +6,7 @@ client: The Bridge
 industry: Religion
 skills: Identity
 title: The Bridge Identity Design
-description: Brand identity for a forward thinking Lutheran church undergoing a period of transition.
+description: Brand identity for a forward thinking Reform church undergoing a period of transition.
 image: the-bridge_th.jpg
 priority: 2
 

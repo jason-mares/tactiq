@@ -6,7 +6,7 @@ client: Burn Ur Money
 industry: Blogging
 skills: Infographic Illustration
 title: 8 Ways to Own the Zombie Apocalypse Infographic
-description: Riding a wave of zombie-buzz in order to capture eyeballs on a growing Australian comedy website.
+description: Riding a wave of zombie-buzz to capture eyeballs on a growing Australian comedy website.
 image: zombies_th.jpg
 priority: 100
 
