@@ -10,10 +10,10 @@ title: The Bridge Church Branding and Identity
 short: Reaching non-traditional families in Post-Christian America.
 description: Repositioning a reform church to reach non-traditional families, rebuild broken communities and stay relevant on issues important to a post-Christian America.
 image: the-bridge_th.jpg
-testimonial:
-  - 
-testimonial-author:
-  - 
+[//]: #testimonial:
+[//]: #  - 
+[//]: #testimonial-author:
+[//]: #  - 
 priority: 1
 
 video:
