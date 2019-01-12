@@ -1,16 +1,58 @@
 @import 'mixins.less';
 @import 'animation.less';
 
+nav.home {
+    a {
+        color: @white !important;
+    }
+}
+#hero {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: 100% 50%;
+    position: relative;
+    top: -55px;
+    z-index: 1;
+    a {
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        .container {
+            height: 100%;
+            position: relative;
+            .proj-name {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                margin-bottom: 55px;
+                h2, h4, p {
+                    color: @white !important;
+                    line-height: 1.618;
+                    margin: 0;
+                }
+                &:before {
+                    content: '';
+                    background-color: white;
+                    width: 11.08em;
+                    height: 3px;
+                    display: block;
+                    margin-bottom: 13px;
+                }
+            }
+        }
+    }
+}
 #work-list {
     padding: 0;
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
     li {
         width: 50%;
-        float: left;
-        position: relative;
-        border: 5px solid white;
-        border-bottom: 0px;
-        border-top: 0px;
+        display: flex;
         box-sizing: border-box;
         .responsiveMax(@tablet, {
             width: 50% !important;
@@ -20,30 +62,15 @@
             width: 100% !important;
         }
         );
-        &:first-child {
-            width: 66.66%;
+        &:nth-child(odd){
+            padding: 0 1em 2em 0;
         }
-        &:nth-child(2),
-        &:nth-child(3) {
-            width: 33.2%;
+        &:nth-child(even){
+            padding: 0 0em 2em 1em;
         }
-        &:nth-child(3) {
-            &:after {
-                content: '';
-                clear: both;
-                display: table;
-                table-layout: fixed;
-            }
-        }
-        &:nth-child(1) { animation-duration: 1.0s; -webkit-animation-duration: 1.0s; }
-        &:nth-child(2) { animation-duration: 1.1s; -webkit-animation-duration: 1.1s; }
-        &:nth-child(3) { animation-duration: 1.2s; -webkit-animation-duration: 1.2s; }
-        &:nth-child(4) { animation-duration: 1.3s; -webkit-animation-duration: 1.3s; }
-        &:nth-child(5) { animation-duration: 1.4s; -webkit-animation-duration: 1.4s; }
-        &:nth-child(6) { animation-duration: 1.5s; -webkit-animation-duration: 1.5s; }
-        &:nth-child(7) { animation-duration: 1.6s; -webkit-animation-duration: 1.6s; }
         a {
             display: block;
+            text-decoration: none;
             figure{
                 margin: 0;
                 padding: 0;
@@ -57,18 +84,32 @@
                     }
                 }
             }
-            div {
-                position: absolute;
-                bottom: @gutter;
-                left: -@gutter/2;
+            .proj-name {
+                position: relative;
                 p {
-                    display: inline-block;
-                    margin: 0 @gutter;
-                    background-color: @red;
-                    color: @white;
+                    display: block;
+                    margin: 0;
+                    color: @black;
                     padding: 0 5px;
-                    &:first-child{
-                        font-size: 1.3em;
+                    height: 55px;
+                }
+                .small {
+//                    font-size: 0.618em;
+                    display: block;
+                    color: @grey;
+                }
+                .short-description {
+                    background-color: @white;
+                    display: none;
+                }
+            }
+            &:hover {
+                .proj-name {
+                    .bold {
+                        display: none;
+                    }
+                    .short-description {
+                        display: block;
                     }
                 }
             }

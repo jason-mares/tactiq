@@ -3,18 +3,15 @@
 
 <div id="barba-wrapper" class="wrapper">
     <div class="barba-container container {{ page.layout }} {{ page.folder }} {{ page.type }} {{ page.title }}" data-namespace="page">
-       <div class="two-third">
+       <div class="one-half">
            <h1>{{ page.title }}</h1>
            <h2>{{ page.subtitle }}</h2>
-           <h4>{{ page.author }}</h4>
-           <h4>{{ page.date | date: '%B %d, %Y' }}</h4>
-           
+           <h4 class="regular grey">{{ page.author }}, {{ page.date | date: '%B %d, %Y' }}</h4>
+       </div>
+       <div class="one-half">
            <img src="{{ site.baseurl }}/images/posts/{{ page.date | date: "%Y-%m-%d" }}_main.jpg" alt="{{ page.title }}">
            
            {{content}}
-       </div>
-       <div class="one-third">
-           
        </div>
         <div class="clear"></div>
     </div>

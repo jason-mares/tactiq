@@ -1,9 +1,14 @@
 {% include header.html %}
 
 <div id="barba-wrapper" class="wrapper">
-    <div class="barba-container container {{ page.layout }} {{ page.folder }} {{ page.type }}">
+    <div class="barba-container container {{ page.id }} {{ page.layout }} {{ page.folder }} {{ page.type }}">
         <div class="at-a-glance one-full clearfix">
             <div class="title one-half">
+               {% for project in site.pages %}
+                    {{ forloop.page.priority }}
+                    {% else %}
+                {% endfor %}
+                
                 <h1>{{ page.client }}</h1>
                 <h4>{{ page.skills }}</h4>
             </div>
@@ -12,11 +17,33 @@
             </div>
         </div>
         <div class="one-full">
+                
+            {% for video in page.video %}
+               
+               <div class="video-responsive">
+                   <iframe src="{{ page.video[forloop.index0] }}" width="1920" height="1080"></iframe>
+               </div>
+               
+               <div class="video-caption">
+                   <h2 class="one-half">Video Synopsis</h2>
+                   <p class="one-half">{{ page.video-caption[forloop.index0] }}</p>
+                   <div class="clear"></div>
+               </div>
+            {% endfor %}
+            
             <ul id="project-list">
                 <li>
-                    <img src="{{ site.baseurl }}/project/{{ page.folder }}/images/{{ page.image }}" alt="{{ page.title }}">
+                    <img src="{{ site.baseurl }}/project/{{ page.folder }}/images/{{ page.image }}" alt="{{ page.title }}" id="projectThumbnail">
                     <span class="hide" id="scrollIndicator"></span>
                 </li>
+            
+            {% for images in page.images %}
+                <li class="{{ page.images-class[forloop.index0] }}">
+                    <img src="{{ site.baseurl }}/project/{{ page.folder }}/images/{{ page.images[forloop.index0] }}" alt="{{ page.images-alt[forloop.index0] }}" class="reveal {{ page.images-class }}">
+                </li>
+            {% endfor %}
+            
+            
                 
             {% for testimonial in page.testimonial %}
                 <li class="one-half clearfix">
@@ -24,12 +51,6 @@
                         <h2>"{{ page.testimonial[forloop.index0] }}"</h2>
                         <span>- {{ page.testimonial-author[forloop.index0] }}</span>
                     </blockquote>
-                </li>
-            {% endfor %}
-            
-            {% for images in page.images %}
-                <li class="{{ page.images-class[forloop.index0] }}">
-                    <img src="{{ site.baseurl }}/project/{{ page.folder }}/images/{{ page.images[forloop.index0] }}" alt="{{ page.images-alt[forloop.index0] }}" class="reveal">
                 </li>
             {% endfor %}
             </ul>
@@ -46,7 +67,7 @@
                         <p>{{ page.client }}</p>
                     </li>
                     <li>
-                        <h4>Industry</h4>
+                        <h4>Sector</h4>
                         <p>{{ page.industry }}</p>
                     </li>
                     <li>

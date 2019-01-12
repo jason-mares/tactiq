@@ -5,10 +5,11 @@ folder: illustration
 client: Supreme Suspensions
 industry: Automotive
 skills: Poster Illustration
+short: Inspiring morale through brand activation.
 title: Supreme Suspensions Promotional Posters
 description: Poster design and illustration to inspire morale and promote the brand on the race track.
 image: supreme-illustrations_th.jpg
-priority: 100
+priority: 4
 
 images: 
   - propaganda_1.jpg

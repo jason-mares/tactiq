@@ -1,0 +1,14 @@
+<div id="hero" data-value="{{ project.priority }}" style="background-image: url('{{ site.baseurl }}/project/{{ project.folder }}/images/{{ project.image }}')">
+    <a href="{{ site.baseurl }}{{ project.url }}" class="project-thumbnail">
+        <div class="container">
+            <div class="proj-name">
+                <h2 class="bold">{{ project.client }}</h2>
+                <h4 class="short-description">
+                    {{ project.short }}
+                    <br>
+                    <span class="darkgrey">{{ project.skills }}</span>
+                </h4>
+            </div>
+        </div>
+    </a>
+</div>

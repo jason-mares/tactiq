@@ -1,6 +1,16 @@
 // Project Ranking
 $(document).ready(function(){
 	$("#work-list li").sort(sort_li).appendTo('#work-list');
+    
+      
+      /// add stuff here
+      if ( window.location.pathname == '/' ){
+            $('nav').addClass('home');
+
+        } else {
+            // Other page
+            $('nav').removeClass('home');
+        }
 
 });
 
@@ -29,10 +39,25 @@ var FadeTransition = Barba.BaseTransition.extend({
                resolve();
             }, 300);
         });
+      
+      /// add stuff here
+      
     },
   fadeIn: function() {
     $(this.newContainer).toggleClass('fade-in');
     this.done();
+      
+      /// navigation color fix
+      if ( window.location.pathname == '/' ){
+            $('nav').addClass('home');
+
+        } else {
+            // Other page
+            $('nav').removeClass('home');
+        }
+      
+      /// sort homepage portfolio
+	$("#work-list li").sort(sort_li).appendTo('#work-list');
   }
 });
 

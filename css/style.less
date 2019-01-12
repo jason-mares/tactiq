@@ -10,31 +10,23 @@
 html,
 body {
     font-family: @regular;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 2;
+    background-color: @white;
+    .responsiveMax(@mobile,{
+        font-size: 13px;
+    });
 }
 
 .wrapper {
 //    min-height: 100vh;
 }
 
+
 /////////////// homepage
-#hero {
-    display: table;
-    margin: 0 auto;
-    .container {
-        height: 90vh;
-        display: table-cell;
-        vertical-align: middle;
-        position: relative;
-        #fixed {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            z-index: 4;
-            color: @white;
-        }
-    } 
+.page.home {
+//    padding: 0;
+//    width: 100%;
 }
 
 /////////////// about
@@ -99,7 +91,7 @@ form#contact {
 /////////////// projects
 .project-page.container {
     .at-a-glance {
-        margin-top: 3em;
+        margin: 8em 0 2em;
         h1, h4, h2 {
             margin: 0;
         }
@@ -123,7 +115,6 @@ form#contact {
     .one-quarter {
         top: @gutter;
         padding-left: @gutter;
-        
         .responsiveMax(1212px, {
             display: none;
         });
@@ -153,7 +144,25 @@ form#contact {
         }
         img {
             width: 100%;
+            margin-bottom: 1em;
         }
+        .one-half {
+            padding: 0px;
+            &:nth-child(odd){
+                padding-right: 0.5em;
+            }
+            &:nth-child(even){
+                padding-left: 0.5em;
+            }
+            .responsiveMax(@mobile, {
+                padding: 0px !important;
+            });
+        }
+    }
+    .video-caption {
+        max-width: 1400px;
+        width: 100%;
+        margin: 4.235em auto;
     }
     .project-background {
         .footnotes {
@@ -165,8 +174,9 @@ form#contact {
                 float: left;
             }
             h4 {
-                opacity: 0.5;
+                color: @grey;
                 margin: 1em 0 0 0;
+                font-weight: 400;
             }
             p {
                 margin: 0;
@@ -196,6 +206,11 @@ form#contact {
         &.invisible {
             opacity: 0 !important;
         }
+    }
+}
+.theBridge {
+    #projectThumbnail {
+        display: none;
     }
 }
 .call-to-action {

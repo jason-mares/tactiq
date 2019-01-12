@@ -6,9 +6,10 @@ client: Supreme Suspensions
 industry: Automotive
 skills: UI/UX, Shopify Theme Dev, Branding & Print
 title: Supreme Suspensions Website Design & Brand Development
-description: Refining an aftermarket lift kit brand to increase recognition alongside a custom-built website to improve conversion rates.
+short: Conversion design and brand refinement.
+description: Building a custom website to improve conversion rates & refining an aftermarket lift kit brand. 
 image: supreme-suspensions_th.jpg
-priority: 1
+priority: 2
 
 images: 
   - supreme-suspensions_7-mechanic-on-website.jpg

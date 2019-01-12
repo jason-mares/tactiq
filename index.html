@@ -1,9 +1,21 @@
 ---
-layout: page
+layout: default
 title: 
 ---
 
-<ul id="work-list" class="fade-in clearfix">
-    {% include project-thumbnail.html %}
-</ul>
+{% for project in site.pages  %} 
+   {% if project.type == 'project' and project.priority == 1 %}
+       {% include hero-thumbnail.html %}
+    {% endif %}
+{% endfor %}
+
+<div class="container">
+    <ul id="work-list" class="fade-in clearfix">
+    {% for project in site.pages %} 
+       {% if project.type == 'project' and project.priority != 1 %}
+           {% include thumbnail.html %}
+        {% endif %}
+    {% endfor %}
+    </ul>
+</div>
 <div class="clear"></div>

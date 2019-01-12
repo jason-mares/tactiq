@@ -6,13 +6,10 @@ client: Heavy Metal Suspensions
 industry: Automotive
 skills: Identity
 title: Heavy Metal Suspensions Rebrand
+short: Maturing a brand without losing its rockstar soul.
 description: Maturing a brand with growing responsibilities and ambitions without losing its rockstar soul.
 image: heavy-metal_th.jpg
 priority: 3
-testimonials:
-  - Jason is a f&*$ing rockstar! I've worked with big agencies before and the work he produces is better than them!
-testimonials-author:
-  - Sean MacPherson
 
 images: 
   - heavy-metal_4-type-color.png

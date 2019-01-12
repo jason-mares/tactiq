@@ -3,10 +3,12 @@
         <figure>
             <img src="{{ site.baseurl }}/project/{{ project.folder }}/images/{{ project.image }}" alt="{{ project.title }}">
         </figure>
-        <div>
-            <p>{{ project.client }}</p>
-            <br>
-            <p>{{ project.skills }}</p>
+        <div class="proj-name">
+            <p class="bold">{{ project.client }}</p>
+            <p class="short-description">
+                {{ project.short }}
+                <span class="small">{{ project.skills }}</span>
+            </p>
         </div>
     </a>
 </li>
