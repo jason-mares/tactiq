@@ -11,9 +11,9 @@ short: Reaching non-traditional families in Post-Christian America.
 description: Repositioning a reform church to reach non-traditional families, rebuild broken communities and stay relevant on issues important to a post-Christian America.
 image: the-bridge_th.jpg
 testimonial:
-  - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  - 
 testimonial-author:
-  - Mark Lohman
+  - 
 priority: 1
 
 video:
