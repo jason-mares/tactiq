@@ -359,8 +359,18 @@ nav.home a {
 #work-list li:nth-child(odd) {
   padding: 0 1em 2em 0;
 }
+@media (max-width: 480px) {
+  #work-list li:nth-child(odd) {
+    padding: 0 0 0 0;
+  }
+}
 #work-list li:nth-child(even) {
   padding: 0 0em 2em 1em;
+}
+@media (max-width: 480px) {
+  #work-list li:nth-child(even) {
+    padding: 0 0 0 0;
+  }
 }
 #work-list li a {
   display: block;
