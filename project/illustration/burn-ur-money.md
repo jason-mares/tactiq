@@ -1,6 +1,6 @@
 ---
 layout: project-page
-type: project
+type: projectz
 folder: illustration
 client: Burn Ur Money
 industry: Blogging
