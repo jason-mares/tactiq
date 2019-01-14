@@ -53,11 +53,20 @@
   margin-bottom: 1em;
 }
 .video-responsive iframe {
+  border: 0;
   left: 0;
   top: 0;
   height: 100%;
   width: 100%;
   position: absolute;
+}
+.goldenRatioLine:before {
+  content: '';
+  background-color: #000000;
+  width: 11.08em;
+  height: 3px;
+  display: block;
+  margin-bottom: 13px;
 }
 /**
  * Scaffolding
@@ -908,7 +917,7 @@ nav.home a {
 }
 @media (max-width: 480px) {
   #hero {
-    min-height: 61.8vh;
+    min-height: 76vh;
   }
 }
 #hero a {
@@ -1508,6 +1517,22 @@ body {
   line-height: 2;
   background-color: #ffffff;
 }
+html h1,
+body h1 {
+  font-size: 3em;
+}
+@media (max-width: 480px) {
+  html h1,
+  body h1 {
+    font-size: 2em !important;
+  }
+}
+@media (max-width: 480px) {
+  html h2,
+  body h2 {
+    font-size: 1.2em !important;
+  }
+}
 @media (max-width: 1024px) {
   .About > .one-third {
     display: none;
@@ -1561,6 +1586,11 @@ form#contact textarea {
 }
 .project-page.container .at-a-glance {
   margin: 8em 0 2em;
+}
+@media (max-width: 480px) {
+  .project-page.container .at-a-glance {
+    margin: 5em 0 1em;
+  }
 }
 .project-page.container .at-a-glance h1,
 .project-page.container .at-a-glance h4,

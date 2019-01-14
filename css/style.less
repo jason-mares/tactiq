@@ -13,8 +13,17 @@ body {
     font-size: 16px;
     line-height: 2;
     background-color: @white;
-    .responsiveMax(@mobile,{
-    });
+    h1 {
+        font-size: 3em;
+        .responsiveMax(@mobile,{
+            font-size: 2em !important; 
+        });
+    }
+    h2 {
+        .responsiveMax(@mobile,{
+            font-size: 1.2em !important;
+        });
+    }
 }
 
 .wrapper {
@@ -91,6 +100,9 @@ form#contact {
 .project-page.container {
     .at-a-glance {
         margin: 8em 0 2em;
+        .responsiveMax(@mobile,{
+            margin: 5em 0 1em;
+        });
         h1, h4, h2 {
             margin: 0;
         }
