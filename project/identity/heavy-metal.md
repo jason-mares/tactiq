@@ -6,7 +6,7 @@ client: Heavy Metal Suspensions
 industry: Automotive
 skills: Identity
 title: Heavy Metal Suspensions Rebrand
-short: Maturing a brand without losing its rockstar soul.
+short: Maturing a brand without losing its roots.
 description: Maturing a brand with growing responsibilities and ambitions without losing its rockstar soul.
 image: heavy-metal_th.jpg
 priority: 3

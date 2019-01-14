@@ -67,16 +67,13 @@ nav.home {
         );
         &:nth-child(odd){
             padding: 0 1em 2em 0;
-            .responsiveMax(@mobile, {
-                padding: 0 0 0 0;
-            });
         }
         &:nth-child(even){
             padding: 0 0em 2em 1em;
-            .responsiveMax(@mobile, {
-                padding: 0 0 0 0;
-            });
         }
+        .responsiveMax(@mobile, {
+            padding: 0 0 1em 0 !important;
+        });
         a {
             display: block;
             text-decoration: none;
