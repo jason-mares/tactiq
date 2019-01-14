@@ -244,7 +244,7 @@ nav {
 nav a {
   padding: 0.55em;
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
   transition: 0.3s ease all;
   font-weight: bold !important;
   text-transform: capitalize;

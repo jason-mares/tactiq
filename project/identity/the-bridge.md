@@ -19,20 +19,38 @@ priority: 1
 video:
   - https://drive.google.com/file/d/1iqX9dkyWnWVoH93sJiFf6WVXZCthtWYn/preview
 video-caption:
-  - The world is a precarious place that can feel relentless and unforgiving. At every stage of our lives love presents itself as a light in the darkness of this struggle, but we wrestle with how to love because love is more than a feeling, it's a divine force that we deeply flawed humans aren't equipped to handle by default. It is the mission of this community to provide context, meaning & beauty to that struggle so all people can recognize the glory of a life with genuine love so they may build their own bridges in their lives and communities to an everloving god through the gospel of Jesus Christ.
+  - The world is a precarious place that can feel relentless and unforgiving. At every stage of our lives love presents itself as a light in the darkness of that struggle, but we wrestle with how to love because we aren't perfect people—nobody is. It is the mission of this community to provide meaning, beauty and a way through struggle using the gospel of Jesus Christ as a blueprint to build bridges in our lives and communities to an everloving and forgiving god. <br><br><a href="#projectbackground" class="scrollLink">Learn more about this project.</a>
 
 images: 
+  - the-bridge_lamp-post.jpg
+  - the_bridge-hat.jpg
+  - the_bridge-tote_bag.jpg
+  - the_bridge-bible-quote.jpg
+  - the-bridge_half-sheets.jpg
+  - the_bridge-community_on_a_mission.jpg
   - the_bridge-light_in_the_darkness.jpg
   - the_bridge-building_stronger_communities.jpg
-  - the_bridge-community_on_a_mission.jpg
   - the_bridge-what_is_truth.jpg
 images-alt:
-  -  Building Resilient Communities
-  - 
+  - Lamp Post
+  - Hat
+  - Tote Bag
+  - Bible Quote
+  - Welcome Sheets
+  - The Bridge, Community on a Mission
+  - Light in the Darkness
+  - Building Resilient Communities
+  - What is Truth?
 images-class:
   - 
   - one-half
   - one-half
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
 ---
 
 According to long-term data, every major religious denomination in America has been on the decline since WWII.<a href="https://youtu.be/3xlb-2DEYW8?t=284" target="_blank"><sup>[1]</sup></a> In 2018, it's estimated only 4% of Millenials were active in a church while an older, more dedicated generation becomes smaller everyday. America—having historically relied on churches as a crucial social safety net—has seen rises in homelessness, substance abuse and widening political divisions as the social fabric a church can provide continues to erode. This has left a vacuum in American communities and with no new institutions taking its place in significant enough numbers, the lack of social cohesion threatens to rip apart communities nationwide.
@@ -41,4 +59,4 @@ At the same time, Americans are becoming increasingly skeptical of a certain bra
 
 America is indeed caught in a spiritual crisis as much as a social & economic crisis at the dawn of this century.
 
-Under the leadership of pastor Mark Lohman, The Bridge recognized a need to integrate a hopeful Christian mission deep into the communities it serves so they may engage these issues head on. Commissioned as a logo redesign, the project scope was widened to include a communications strategy to bring about a radical reimagining of how Christianity can impact the world in the twenty-first century.
+Under the leadership of pastor Mark Lohman, The Bridge recognized a need to integrate a hopeful Christian mission deep into the communities it serves so they may engage these issues head on. Commissioned as a logo redesign, the project scope was widened to include a communications strategy to bring about a reimagining of how Christianity can impact the world in the twenty-first century starting at the local level.

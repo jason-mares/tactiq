@@ -838,7 +838,7 @@ nav {
 nav a {
   padding: 0.55em;
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
   transition: 0.3s ease all;
   font-weight: bold !important;
   text-transform: capitalize;
@@ -905,6 +905,11 @@ nav.home a {
   position: relative;
   top: -55px;
   z-index: 1;
+}
+@media (max-width: 480px) {
+  #hero {
+    min-height: 61.8vh;
+  }
 }
 #hero a {
   display: inline-block;
@@ -1502,12 +1507,6 @@ body {
   font-size: 16px;
   line-height: 2;
   background-color: #ffffff;
-}
-@media (max-width: 480px) {
-  html,
-  body {
-    font-size: 13px;
-  }
 }
 @media (max-width: 1024px) {
   .About > .one-third {

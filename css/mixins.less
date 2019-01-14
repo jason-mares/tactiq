@@ -84,10 +84,23 @@
   height: 0;
   margin-bottom: 1em;
     iframe {
+      border: 0;
       left: 0;
       top: 0;
       height: 100%;
       width: 100%;
       position: absolute;
+    }
+}
+
+
+.goldenRatioLine{
+    &:before {
+        content: '';
+        background-color: @black;
+        width: 11.08em;
+        height: 3px;
+        display: block;
+        margin-bottom: 13px;
     }
 }

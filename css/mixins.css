@@ -71,11 +71,20 @@
   margin-bottom: 1em;
 }
 .video-responsive iframe {
+  border: 0;
   left: 0;
   top: 0;
   height: 100%;
   width: 100%;
   position: absolute;
+}
+.goldenRatioLine:before {
+  content: '';
+  background-color: #000000;
+  width: 11.08em;
+  height: 3px;
+  display: block;
+  margin-bottom: 13px;
 }
 /* latin-ext */
 /*
@@ -316,9 +325,18 @@ strong {
   margin-bottom: 1em;
 }
 .video-responsive iframe {
+  border: 0;
   left: 0;
   top: 0;
   height: 100%;
   width: 100%;
   position: absolute;
+}
+.goldenRatioLine:before {
+  content: '';
+  background-color: #000000;
+  width: 11.08em;
+  height: 3px;
+  display: block;
+  margin-bottom: 13px;
 }

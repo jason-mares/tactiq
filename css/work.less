@@ -13,6 +13,9 @@ nav.home {
     position: relative;
     top: -55px;
     z-index: 1;
+    .responsiveMax(@mobile, {
+        min-height: 76vh;
+    });
     a {
         display: inline-block;
         height: 100%;

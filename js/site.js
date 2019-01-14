@@ -3,14 +3,21 @@ $(document).ready(function(){
 	$("#work-list li").sort(sort_li).appendTo('#work-list');
     
       
-      /// add stuff here
+      /// navigation color swap
       if ( window.location.pathname == '/' ){
             $('nav').addClass('home');
 
         } else {
-            // Other page
+            // remove navigation color swap
             $('nav').removeClass('home');
         }
+    
+    $( "a.scrollLink" ).click(function( event ) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 987);
+    });
+    
+    
 
 });
 
