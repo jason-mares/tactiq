@@ -1,4 +1,4 @@
-// Project Ranking
+// Video Thumbnail Control
 $(function() {
   $('.js-youtube').on('click', function() {
     var $yt = $(this);
@@ -9,8 +9,6 @@ $(function() {
     $thumbnail.replaceWith(ytDOM);
   });
 });
-
-
 
 // Project Ranking
 $(document).ready(function(){
@@ -79,6 +77,18 @@ var FadeTransition = Barba.BaseTransition.extend({
       
       /// sort homepage portfolio
 	$("#work-list li").sort(sort_li).appendTo('#work-list');
+      
+      // Video Thumbnail Control
+        $(function() {
+          $('.js-youtube').on('click', function() {
+            var $yt = $(this);
+            var ytid = $yt.data('id');
+            var $thumbnail = $yt.find('.js-youtube-thumbnail');
+            var ytDOM = '<iframe class="iframe" width="1920" height="1080" src="https://www.youtube.com/embed/' + ytid + '?rel=0;&autoplay=1" frameborder="0" allowfullscreen></iframe>';
+
+            $thumbnail.replaceWith(ytDOM);
+          });
+        });
   }
 });
 
