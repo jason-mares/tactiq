@@ -21,11 +21,11 @@
             {% for video in page.video %}
 
             <div class="video-responsive">
-
                 <div class="js-youtube" data-id="{{ page.video }}">
                     <div class="js-youtube-thumbnail thumbnail">
+                        <div class="overlay"></div>
                         <img src="{{ site.baseurl }}/images/play-button.svg" alt="Play Button" id="play">
-                        <img src="{{ site.baseurl }}/project/{{ page.folder }}/images/{{ page.videothumbnail }}" alt="{{ page.client }} Video Thumbnail">
+                        <img src="{{ site.baseurl }}/project/{{ page.folder }}/images/{{ page.videothumbnail }}" alt="{{ page.client }} Video Thumbnail" id="vidTh">
                     </div>
                 </div>
             </div>
