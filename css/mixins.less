@@ -7,6 +7,7 @@
 */
 
 .responsiveMax(@maxWidth;
+
 @rules) {
     @media (max-width: @maxWidth) {
         @rules();
@@ -14,6 +15,7 @@
 }
 
 .responsiveMin(@minWidth;
+
 @rules) {
     @media (min-width: @minWidth) {
         @rules();
@@ -28,26 +30,37 @@
 @mobile: 480px;
 
 @red: #F85452;
+
 .red {
     color: @red;
 }
+
 @blue: #292F83;
+
 .blue {
     color: @blue;
 }
+
 @white: #FFFFFF;
+
 .white {
     color: @white;
 }
+
 @black: #000000;
+
 .black {
     color: @black;
 }
-@grey: rgb(79%,79%,79%);
+
+@grey: rgb(79%, 79%, 79%);
+
 .grey {
     color: @grey;
 }
-@darkgrey: rgb(45%,45%,45%);
+
+@darkgrey: rgb(45%, 45%, 45%);
+
 .darkgrey {
     color: @darkgrey;
 }
@@ -57,9 +70,12 @@
 .container {
     width: @large;
     margin: 0 auto;
+
     .responsiveMax(@large, {
         width: 89%;
-    });
+    }
+
+    );
 }
 
 .one-half,
@@ -74,27 +90,52 @@
     .responsiveMax(@mobile, {
         width: 100% !important;
     }
+
     );
 }
 
 .video-responsive {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
-  margin-bottom: 1em;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    margin-bottom: 1em;
+    cursor: pointer;
+
     iframe {
-      border: 0;
-      left: 0;
-      top: 0;
-      height: 100%;
-      width: 100%;
-      position: absolute;
+        border: 0;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+
+    img {
+        transition: 0.3s all ease;
+    }
+    
+    #play {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        min-width: 89px;
+        margin: auto;
+        transition: 0.5s ease all;
+        opacity: 1;
+    }
+    
+    &:hover {
+        #play {
+            opacity: 0.5;
+            transform: scale(1.05);
+        }
     }
 }
 
-
-.goldenRatioLine{
+.goldenRatioLine {
     &:before {
         content: '';
         background-color: @black;

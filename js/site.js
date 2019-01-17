@@ -1,4 +1,18 @@
 // Project Ranking
+$(function() {
+  $('.js-youtube').on('click', function() {
+    var $yt = $(this);
+    var ytid = $yt.data('id');
+    var $thumbnail = $yt.find('.js-youtube-thumbnail');
+    var ytDOM = '<iframe class="iframe" width="1920" height="1080" src="https://www.youtube.com/embed/' + ytid + '?autoplay=1&rel=0&showinfo=0&showsearch=0&controls=1&loop=1" frameborder="0" allowfullscreen></iframe>';
+
+    $thumbnail.replaceWith(ytDOM);
+  });
+});
+
+
+
+// Project Ranking
 $(document).ready(function(){
 	$("#work-list li").sort(sort_li).appendTo('#work-list');
     

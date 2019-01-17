@@ -69,6 +69,7 @@
   position: relative;
   height: 0;
   margin-bottom: 1em;
+  cursor: pointer;
 }
 .video-responsive iframe {
   border: 0;
@@ -77,6 +78,24 @@
   height: 100%;
   width: 100%;
   position: absolute;
+}
+.video-responsive img {
+  transition: 0.3s all ease;
+}
+.video-responsive #play {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-width: 89px;
+  margin: auto;
+  transition: 0.5s ease all;
+  opacity: 1;
+}
+.video-responsive:hover #play {
+  opacity: 0.5;
+  transform: scale(1.05);
 }
 .goldenRatioLine:before {
   content: '';
@@ -323,6 +342,7 @@ strong {
   position: relative;
   height: 0;
   margin-bottom: 1em;
+  cursor: pointer;
 }
 .video-responsive iframe {
   border: 0;
@@ -331,6 +351,24 @@ strong {
   height: 100%;
   width: 100%;
   position: absolute;
+}
+.video-responsive img {
+  transition: 0.3s all ease;
+}
+.video-responsive #play {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-width: 89px;
+  margin: auto;
+  transition: 0.5s ease all;
+  opacity: 1;
+}
+.video-responsive:hover #play {
+  opacity: 0.5;
+  transform: scale(1.05);
 }
 .goldenRatioLine:before {
   content: '';

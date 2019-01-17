@@ -17,7 +17,9 @@ image: the-bridge_th.jpg
 priority: 1
 
 video:
-  - https://drive.google.com/file/d/1iqX9dkyWnWVoH93sJiFf6WVXZCthtWYn/preview
+  - _0mcMcbp4MU
+videothumbnail:
+  - the_bridge-videoth.jpg
 video-caption:
   - The world is a precarious place that can feel relentless and unforgiving. At every stage of our lives love presents itself as a light in the darkness of that struggle, but we wrestle with how to love because we aren't perfect people—nobody is. It is the mission of this community to provide meaning, beauty and a way through struggle using the gospel of Jesus Christ as a blueprint to build bridges in our lives and communities to an everloving and forgiving god. <br><br><a href="#projectbackground" class="scrollLink">Learn more about this project.</a>
 
@@ -55,7 +57,7 @@ images-class:
 
 According to long-term data, every major religious denomination in America has been on the decline since WWII.<a href="https://youtu.be/3xlb-2DEYW8?t=284" target="_blank"><sup>[1]</sup></a> In 2018, it's estimated only 4% of Millenials were active in a church while an older, more dedicated generation becomes smaller everyday. America—having historically relied on churches as a crucial social safety net—has seen rises in homelessness, substance abuse and widening political divisions as the social fabric a church can provide continues to erode. This has left a vacuum in American communities and with no new institutions taking its place in significant enough numbers, the lack of social cohesion threatens to rip apart communities nationwide.
 
-At the same time, Americans are becoming increasingly skeptical of a certain brand of institutionalized Christianity that can seem more interested in policing morals than creating a compelling narrative to respond to an epidemic of loneliness & despair that is pervasive in modern American culture.<a href="https://www.washingtonpost.com/opinions/america-is-losing-ground-to-death-and-despair/2018/11/30/77c6b38e-f45a-11e8-bc79-68604ed88993_story.html?utm_term=.2bdeefc30aff" target="_blank"><sup>[2]</sup></a> While there have been earnest attempts by many forward thinking congregations to address contemporary issues, younger generations simply aren't engaged in ways inspiring action.<a href="https://www.huffingtonpost.com/christian-chiakulas/churches-millennials-if-they-just-did-this_b_8215846.html" target="_blank"><sup>[3]</sup></a>
+At the same time, Americans are becoming increasingly skeptical of a certain brand of institutionalized Christianity that can seem more interested in policing morals than creating a compelling response to an epidemic of loneliness & despair that is pervasive in modern American culture.<a href="https://www.washingtonpost.com/opinions/america-is-losing-ground-to-death-and-despair/2018/11/30/77c6b38e-f45a-11e8-bc79-68604ed88993_story.html?utm_term=.2bdeefc30aff" target="_blank"><sup>[2]</sup></a> While there have been earnest attempts by many forward thinking congregations to address contemporary issues, younger generations simply aren't engaged in ways inspiring action.<a href="https://www.huffingtonpost.com/christian-chiakulas/churches-millennials-if-they-just-did-this_b_8215846.html" target="_blank"><sup>[3]</sup></a>
 
 America is indeed caught in a spiritual crisis as much as a social & economic crisis at the dawn of this century.
 
