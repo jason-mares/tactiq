@@ -107,6 +107,16 @@
   opacity: 1;
   border-radius: 50%;
 }
+@media (max-width: 480px) {
+  .video-responsive #play {
+    width: 55px;
+  }
+}
+@media (max-width: 480px) {
+  .video-responsive #play {
+    width: 55px;
+  }
+}
 .video-responsive:hover #play {
   transform: scale(1.05);
 }
@@ -395,6 +405,16 @@ strong {
   transition: 0.5s ease all;
   opacity: 1;
   border-radius: 50%;
+}
+@media (max-width: 480px) {
+  .video-responsive #play {
+    width: 55px;
+  }
+}
+@media (max-width: 480px) {
+  .video-responsive #play {
+    width: 55px;
+  }
 }
 .video-responsive:hover #play {
   transform: scale(1.05);

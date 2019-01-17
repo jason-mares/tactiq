@@ -89,6 +89,11 @@
   opacity: 1;
   border-radius: 50%;
 }
+@media (max-width: 480px) {
+  .video-responsive #play {
+    width: 55px;
+  }
+}
 .video-responsive:hover #play {
   transform: scale(1.05);
 }
