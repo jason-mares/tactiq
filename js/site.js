@@ -102,8 +102,7 @@ Barba.Pjax.getTransition = function() {
 
 
 // Animated Scroll
-
-function fadeInScroll(event) {
+$(document).on("scroll", function () {
   var pageTop = $(document).scrollTop()
   var pageBottom = pageTop + $(window).height()
   var tags = $(".reveal")
@@ -128,11 +127,4 @@ function fadeInScroll(event) {
       $(tag1).removeClass("invisible")
     }
   }
-}
-
-if( /iPhone|iPad|iPod|/i.test(navigator.userAgent) ) {
-    $(document).on("touchmove", fadeInScroll);
-} else {
-    $(document).on("scroll", fadeInScroll);
-}
-
+});

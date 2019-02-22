@@ -47,7 +47,7 @@
 
                 {% for images in page.images %}
                 <li class="{{ page.images-class[forloop.index0] }}">
-                    <img src="{{ site.baseurl }}/project/{{ page.folder }}/images/{{ page.images[forloop.index0] }}" alt="{{ page.images-alt[forloop.index0] }}" class="reveal {{ page.images-class }}">
+                    <img src="{{ site.baseurl }}/project/{{ page.folder }}/images/{{ page.images[forloop.index0] }}" alt="{{ page.images-alt[forloop.index0] }}" class="{{ page.images-class }}">
                 </li>
                 {% endfor %}
 
