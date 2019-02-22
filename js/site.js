@@ -129,5 +129,10 @@ function fadeInScroll(event) {
     }
   }
 }
-$(document).on("scroll", fadeInScroll);
-$(document).on("touchmove", fadeInScroll);
+
+if( /iPhone|iPad|iPod|/i.test(navigator.userAgent) ) {
+    $(document).on("touchmove", fadeInScroll);
+} else {
+    $(document).on("scroll", fadeInScroll);
+}
+
