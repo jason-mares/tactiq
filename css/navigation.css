@@ -317,6 +317,7 @@ nav #logo a {
 }
 nav #logo a img {
   min-width: 89px;
+  filter: invert(1);
 }
 @media (max-width: 480px) {
   nav #logo a img {

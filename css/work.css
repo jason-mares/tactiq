@@ -343,6 +343,9 @@ strong {
 nav.home a {
   color: #ffffff !important;
 }
+nav.home #logo img {
+  filter: invert(0);
+}
 #hero {
   min-height: 100vh;
   background-size: cover;
