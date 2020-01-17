@@ -910,7 +910,7 @@ nav #logo a {
   background-color: transparent;
 }
 nav #logo a img {
-  min-width: 144px;
+  min-width: 89px;
 }
 @media (max-width: 480px) {
   nav #logo a img {
@@ -924,6 +924,8 @@ nav ul {
   margin: 0;
   text-align: right;
   width: 100%;
+  top: -8px !important;
+  position: relative;
 }
 nav ul li {
   display: inline-block;

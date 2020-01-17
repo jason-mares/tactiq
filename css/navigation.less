@@ -5,6 +5,7 @@ header {
     position: relative;
     z-index: 99999;
 }
+
 nav {
     display: table !important;
     box-sizing: border-box;
@@ -13,38 +14,48 @@ nav {
     font-size: 1em;
     font-weight: bold;
     mix-blend-mode: darken;
+
     a {
         padding: 0.55em;
         text-decoration: none;
         color: @black;
         transition: 0.3s ease all;
         font-weight: bold !important;
-//        background-color: @white;
+        //        background-color: @white;
         text-transform: capitalize;
+
         &:hover {
-            color: @red !important;
+            color: @red  !important;
         }
+
         &:visited {
             color: @black;
         }
     }
+
     #logo {
         display: table-cell;
         white-space: nowrap;
-        color: @red !important;
+        color: @red  !important;
         position: relative;
         top: 5px;
+
         a {
             padding: 0 !important;
             background-color: transparent;
+
             img {
-                min-width: 144px;
+                min-width: 89px;
+
                 .responsiveMax(@mobile, {
                     min-width: 100px;
-                });
+                }
+
+                );
             }
         }
     }
+
     ul {
         display: table-cell;
         list-style: none;
@@ -52,8 +63,12 @@ nav {
         margin: 0;
         text-align: right;
         width: 100%;
+        top: -8px !important;
+        position: relative;
+
         li {
             display: inline-block;
+
             a {
                 text-decoration: none;
             }
@@ -68,8 +83,11 @@ nav {
 footer {
     padding: @gutter 0 !important;
     opacity: 0.5;
+
     .responsiveMax(@large, {
         width: 100%;
         padding: @gutter 1.25em !important;
-    });
+    }
+
+    );
 }
