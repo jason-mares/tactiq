@@ -88,8 +88,8 @@
   bottom: 0;
   left: 0;
   right: 0;
-  width: 89px;
-  margin: auto;
+  width: 89px !important;
+  margin: auto !important;
   transition: 0.5s ease all;
   opacity: 1;
   border-radius: 50%;
@@ -1609,51 +1609,66 @@ form#contact textarea {
 form#contact textarea {
   min-height: 200px;
 }
+.case-study-page.container .at-a-glance,
 .project-page.container .at-a-glance {
   margin: 8em 0 2em;
 }
 @media (max-width: 480px) {
+  .case-study-page.container .at-a-glance,
   .project-page.container .at-a-glance {
     margin: 5em 0 1em;
   }
 }
+.case-study-page.container .at-a-glance h1,
 .project-page.container .at-a-glance h1,
+.case-study-page.container .at-a-glance h4,
 .project-page.container .at-a-glance h4,
+.case-study-page.container .at-a-glance h2,
 .project-page.container .at-a-glance h2 {
   margin: 0;
 }
+.case-study-page.container .at-a-glance h2,
 .project-page.container .at-a-glance h2 {
   font-weight: normal;
   line-height: 1.85em;
 }
+.case-study-page.container .at-a-glance h4,
 .project-page.container .at-a-glance h4 {
   opacity: 0.5;
-  margin-top: 1.3em;
+  margin-top: -0.1em;
 }
+.case-study-page.container .one-quarter,
 .project-page.container .one-quarter,
+.case-study-page.container .three-quarter,
 .project-page.container .three-quarter {
   margin-top: 1em;
 }
 @media (max-width: 1212px) {
+  .case-study-page.container .one-quarter,
   .project-page.container .one-quarter,
+  .case-study-page.container .three-quarter,
   .project-page.container .three-quarter {
     padding: 0px;
     width: 100% !important;
   }
 }
+.case-study-page.container .one-quarter,
 .project-page.container .one-quarter {
   top: 34px;
   padding-left: 34px;
 }
 @media (max-width: 1212px) {
+  .case-study-page.container .one-quarter,
   .project-page.container .one-quarter {
     display: none;
   }
 }
+.case-study-page.container .mobile,
 .project-page.container .mobile {
   display: none;
 }
 @media (max-width: 1212px) {
+  .case-study-page.container .mobile,
   .project-page.container .mobile {
     display: block;
     width: 50%;
@@ -1661,62 +1676,77 @@ form#contact textarea {
   }
 }
 @media (max-width: 550px) {
+  .case-study-page.container .mobile,
   .project-page.container .mobile {
     width: 100% !important;
   }
 }
+.case-study-page.container #project-list,
 .project-page.container #project-list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
+.case-study-page.container #project-list li,
 .project-page.container #project-list li {
   padding: 0;
   margin: 0;
 }
+.case-study-page.container #project-list li:first-child,
 .project-page.container #project-list li:first-child {
   position: relative;
 }
+.case-study-page.container #project-list img,
 .project-page.container #project-list img {
   width: 100%;
   margin-bottom: 1em;
 }
+.case-study-page.container #project-list .one-half,
 .project-page.container #project-list .one-half {
   padding: 0px;
 }
+.case-study-page.container #project-list .one-half:nth-child(odd),
 .project-page.container #project-list .one-half:nth-child(odd) {
   padding-right: 0.5em;
 }
+.case-study-page.container #project-list .one-half:nth-child(even),
 .project-page.container #project-list .one-half:nth-child(even) {
   padding-left: 0.5em;
 }
 @media (max-width: 480px) {
+  .case-study-page.container #project-list .one-half,
   .project-page.container #project-list .one-half {
     padding: 0px !important;
   }
 }
+.case-study-page.container .video-caption,
 .project-page.container .video-caption {
   max-width: 1400px;
   width: 100%;
   margin: 4.235em auto;
 }
+.case-study-page.container .project-background .footnotes,
 .project-page.container .project-background .footnotes {
   margin: 3em 0;
   list-style: none;
   padding: 0;
 }
+.case-study-page.container .project-background .footnotes li,
 .project-page.container .project-background .footnotes li {
   width: 50%;
   float: left;
 }
+.case-study-page.container .project-background .footnotes h4,
 .project-page.container .project-background .footnotes h4 {
   color: #727272;
   margin: 1em 0 0 0;
   font-weight: 400;
 }
+.case-study-page.container .project-background .footnotes p,
 .project-page.container .project-background .footnotes p {
   margin: 0;
 }
+.case-study-page.container #scrollIndicator,
 .project-page.container #scrollIndicator {
   text-align: center;
   padding: 2em 0 1em 0;
@@ -1729,6 +1759,7 @@ form#contact textarea {
   left: 0;
   position: absolute;
 }
+.case-study-page.container #scrollIndicator:after,
 .project-page.container #scrollIndicator:after {
   animation-name: bounce;
   -webkit-animation-name: bounce;
@@ -1745,11 +1776,9 @@ form#contact textarea {
   display: inline-block;
   padding: 13px;
 }
+.case-study-page.container #scrollIndicator.invisible,
 .project-page.container #scrollIndicator.invisible {
   opacity: 0 !important;
-}
-.theBridge #projectThumbnail {
-  display: none;
 }
 .call-to-action {
   text-align: left;

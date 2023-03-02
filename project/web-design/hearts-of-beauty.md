@@ -7,7 +7,7 @@ industry: Non-Profit, Travel
 skills: Web Development & Design
 title: Hearts of Beauty California Website Design
 short: How UX can retain volunteers & improve services for a non-profit. 
-description: How to reduce volunteer burnout, improve moral and save a non-profit thousands of dollars a year with UX research and design. 
+description: How to reduce volunteer burnout, improve morale and save a non-profit thousands of dollars a year with UX research and design. 
 image: hob_hero.webp
 priority: 2022.1
 
@@ -26,12 +26,10 @@ The updated system was launched just in time for the Fall 2022 retreat, and the 
 
 Through UX design and research, the Hearts of Beauty retreat was able to provide a better experience for both volunteers and guests, while also increasing efficiency and saving valuable time.
 
-Improvements in registration included
-<ul>
-  <li>Automatic payment reminder emails</li>
-  <li>Month-to-month payment plans</li>
-  <li>Payment processing fees were reduced from 3.49% to 1%; saving the organization thousands in transaction fees</li>
-  <li>All-in-one dashboard for managing all registered users</li>
-  <li>Ability to offer coupon codes</li>
-  <li>Exporting registration data to an Excel file, necessary for check-in</li>
-</ul>
+Improvements to user registration includes:
+- Email notifications are sent automatically to remind users of upcoming payments.
+- The payment plans offered are on a month-to-month basis.
+- The organization has saved thousands of dollars in transaction fees after reducing payment processing fees from 3.49% to 1%.
+- Volunteers can manage all registered users using a single dashboard.
+- Coupon codes can be created and offered to users.
+- Registration data can be exported to an Excel file for check-in purposes.
