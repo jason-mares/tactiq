@@ -9,7 +9,7 @@ title: Heavy Metal Suspensions Rebrand
 short: Maturing a brand without losing its roots.
 description: Maturing a brand with growing responsibilities and ambitions without losing its rockstar soul.
 image: heavy-metal_th.jpg
-priority: 3
+priority: 2015
 
 images: 
   - heavy-metal_4-type-color.png
@@ -31,7 +31,8 @@ images-class:
 ---
 
 
-Heavy Metal® had a fantastic concept: specialize in all-steel custom auto parts that conveyed the dependable strength of steel with the swagger of a rockstar. The original brand image relied heavily on 80's heavy metal imagery that began to feel out of place with the company's growing responsibilities…it was time for Metallica to cut their hair. A redesign was commissioned to accomplish three goals:
-1. Mature the brand with a new logo that works in many applications.
-2. Position the company as an authority of steel-made aftermarket auto parts.
-3. Keep the heavy metal soul without selling out.
+Heavy Metal, a company specializing in all-steel custom auto parts, had a unique concept to convey the dependable strength of steel with the swagger of a rockstar. However, their original brand image heavily relied on 80’s heavy metal imagery which began to feel out of place as the company expanded their offerings. In order to mature the brand and establish themselves as an authority in the steel-made aftermarket auto parts industry, a redesign was commissioned with three goals in mind:
+
+1. Create a new logo that could be applied across various mediums.
+2. Position the company as a trusted expert in the industry.
+3. Preserve the company's heavy metal identity while appealing to a wider audience.

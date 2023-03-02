@@ -10,31 +10,33 @@ $(function() {
   });
 });
 
-// Project Ranking
+// Site Functions
 $(document).ready(function(){
+  
 	$("#work-list li").sort(sort_li).appendTo('#work-list');
-    
       
       /// navigation color swap
       if ( window.location.pathname == '/' ){
             $('nav').addClass('home');
-
-        } else {
+            $('header').addClass('home');
+            
+          } else {
             // remove navigation color swap
             $('nav').removeClass('home');
+            $('header').removeClass('home');
         }
     
+    // Animated scroll
     $( "a.scrollLink" ).click(function( event ) {
         event.preventDefault();
         $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 987);
     });
     
-    
-
 });
 
+// Sort portfolio objects in chronological order
 function sort_li(a, b){
-    return ($(b).data('value')) < ($(a).data('value')) ? 1 : -1;
+    return ($(b).data('value')) > ($(a).data('value')) ? 1 : -1;
 }
 
 
@@ -69,10 +71,12 @@ var FadeTransition = Barba.BaseTransition.extend({
       /// navigation color fix
       if ( window.location.pathname == '/' ){
             $('nav').addClass('home');
-
-        } else {
+            $('header').addClass('home');
+            
+          } else {
             // Other page
             $('nav').removeClass('home');
+            $('header').removeClass('home');
         }
       
       /// sort homepage portfolio

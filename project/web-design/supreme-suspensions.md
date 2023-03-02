@@ -7,9 +7,9 @@ industry: Automotive
 skills: UI/UX, Shopify Theme Dev, Branding & Print
 title: Supreme Suspensions Website Design & Brand Development
 short: Conversion design and brand refinement.
-description: Building a custom website to improve conversion rates & refining an aftermarket lift kit brand. 
+description: A tailored website to increase conversion rates, coupled with the fine-tuning of an aftermarket lift kit brand.
 image: supreme-suspensions_th.jpg
-priority: 2
+priority: 2017
 
 images: 
   - supreme-suspensions_7-mechanic-on-website.jpg
@@ -47,9 +47,8 @@ images-alt:
 images-class:
 ---
 
-The flagship brand of a lift kit and accessories manufacturer, Supreme Suspensions™ wanted to earn more revenue as their WordPress shop was beginning to show its age. Brand confusion was compounded when the multi-million dollar brand had no established style guide and a team of designers adhering to different styles. Solutions were desined to alleviate four problems:
+Supreme Suspensions, a leading lift kit and accessories manufacturer, was facing several challenges with their flagship brand. The existing WordPress shop was outdated, resulting in a decline in revenue. Moreover, the lack of a defined style guide led to brand confusion, as the designers followed different styles. In order to address these issues, four key solutions were implemented.
 
-1. Create style guide to align team with the goal of increasing ad and marketing effectiveness.
-2. Redesign a mobile-first website with a 2% conversion rate goal.
-3. Decrease page load times to > 0:02 seconds.
-4. Create a logical navigation system.
+Firstly, a style guide was created to ensure that the team was aligned with the goal of increasing the effectiveness of ad and marketing campaigns. Secondly, a mobile-first website was redesigned, with a target conversion rate of 2%. Thirdly, the page load times were reduced to less than 0.02 seconds. Finally, a logical navigation system was developed to improve the overall user experience.
+
+As a result of these efforts, Supreme Suspensions achieved remarkable success. The new website design and improved page load times led to a significant increase in conversion rates. The implementation of the style guide helped to establish a consistent brand identity, reducing confusion among customers. The logical navigation system provided an enhanced user experience, leading to a surge in positive customer feedback. The collaboration between Supreme Suspensions and the team responsible for the solutions resulted in a successful case study that serves as a testament to the importance of strategic planning and execution.

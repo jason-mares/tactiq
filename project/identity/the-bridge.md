@@ -7,21 +7,17 @@ id: theBridge
 industry: Religion
 skills: Branding, Print, Visual Effects & Film
 title: The Bridge Church Branding and Identity
-short: Reaching non-traditional families in Post-Christian America.
-description: Repositioning a reform church to reach non-traditional families, rebuild broken communities and stay relevant on issues important to a post-Christian America.
+short: Showing the beauty of creation and human connection with Identity Design.
+description: Repositioning a reform church to reach non-traditional families, rebuild broken communities, and stay relevant on issues important to contemporary society.
 image: the-bridge_th.jpg
-[//]: #testimonial:
-[//]: #  - 
-[//]: #testimonial-author:
-[//]: #  - 
-priority: 1
+priority: 2019
 
 video:
   - _0mcMcbp4MU
 videothumbnail:
   - the_bridge-videoth.jpg
 video-caption:
-  - The world is a precarious place that can feel relentless and unforgiving. At every stage of our lives love presents itself as a light in the darkness of that struggle, but we wrestle with how to love because we aren't perfect people—nobody is. It is the mission of this community to provide meaning, beauty and a way through struggle using the gospel of Jesus Christ as a blueprint to build bridges in our lives and communities to an everloving and forgiving god. <br><br><a href="#projectbackground" class="scrollLink">Learn more about this project.</a>
+  - In a world that can feel relentless and unforgiving, love presents itself as a light in the darkness. However, we often struggle with how to love as imperfect beings. This community's mission is to offer meaning, beauty, and guidance through life's struggles using the gospel of Jesus Christ as a blueprint to build bridges to an ever-loving and forgiving God in our lives and communities. <br><br><a href="#projectbackground" class="scrollLink">Learn more about this project.</a>
 
 images: 
   - 01-Bridge_logomark.jpg
@@ -88,8 +84,7 @@ At the same time, Americans are becoming increasingly skeptical of a certain bra
 
 America is indeed caught in a spiritual crisis as much as a social & economic crisis at the dawn of this century.
 
-Under the leadership of pastor Mark Lohman, The Bridge recognized a need to integrate a hopeful Christian mission deep into the communities it serves so they may engage these issues head on. Commissioned as a logo redesign, the project scope was widened to include a communications strategy to bring about a reimagining of how Christianity can impact the world in the twenty-first century starting at the local level.
-
+Under the leadership of pastor Mark Lohman, The Bridge recognized a need to modernize and integrate a hopeful Christian mission deep into the communities it serves so they may engage these issues head on. The aim of the project was to establish a new logo and visual style guide that would showcase the beauty of the local community and emphasize the importance of human connection.
 
 <!--
 

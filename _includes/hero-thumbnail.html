@@ -1,4 +1,38 @@
+{% if project.heroVideoUrl %}
+
+<div id="hero" class="heroVideo" data-value="{{ project.priority }}">
+    <header>
+        {% include nav.html %}
+    </header>
+    <a href="{{ site.baseurl }}{{ project.url }}" class="project-thumbnail">
+
+        <div class="video-container">
+            <video autoplay muted loop>
+                <source src="https://skytechgaming.com/wp-content/uploads/2022/05/live-stream-build.webm" type="video/webm" />
+                <!-- <source src="{{ site.baseurl }}/project/{{ project.folder }}/video/{{ project.heroVideoUrl }}" type="video/mp4" /> -->
+            </video>
+        </div>
+        
+        <div class="container" style="padding-top: 300px;">
+            <div class="proj-name">
+                <h2 class="bold">{{ project.client }}</h2>
+                <h4 class="short-description">
+                    {{ project.short }}
+                    <br>
+                    <span class="darkgrey">{{ project.skills }}</span>
+                </h4>
+            </div>
+        </div>
+    </a>
+</div>
+
+
+{% else %}
+
 <div id="hero" data-value="{{ project.priority }}" style="background-image: url('{{ site.baseurl }}/project/{{ project.folder }}/images/{{ project.image }}')">
+    <header>
+        {% include nav.html %}
+    </header>
     <a href="{{ site.baseurl }}{{ project.url }}" class="project-thumbnail">
         <div class="container">
             <div class="proj-name">
@@ -12,3 +46,6 @@
         </div>
     </a>
 </div>
+
+
+{% endif %}

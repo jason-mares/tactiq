@@ -9,7 +9,7 @@ short: Inspiring morale through brand activation.
 title: Supreme Suspensions Promotional Posters
 description: Poster design and illustration to inspire morale and promote the brand on the race track.
 image: supreme-illustrations_th.jpg
-priority: 4
+priority: 2014
 
 images: 
   - propaganda_1.jpg
@@ -38,6 +38,6 @@ images-class:
   - 'one-half'
 ---
 
-As Supreme Suspensions was growing, the CEO commissioned two 24x36" posters: the first was only meant only for internal use as an inspirational poster for the office, the other to promote Wade Wyman, a race truck driver the company was sponsoring. The Russian Propaganda piece was the internal poster designed to borrow and subvert traditional USSR propaganda posters. The Wade Wyman poster was inspired by the cool swagger of a Quintin Tarantino movie.
+During its growth, Supreme Suspensions commissioned two 24x36” posters: one as an internal inspirational poster and the other to promote their sponsored race truck driver, Wade Wyman. The internal poster, called the Russian Propaganda piece, borrowed traditional USSR propaganda imagery and subverted it. The Wade Wyman poster was inspired by the cool style of a Quintin Tarantino movie.
 
-Both posters ended up becoming promotional giveaways at race events and are now enjoying their new homes on the walls of thousands of garages, shops and bedrooms across the United States.
+Originally intended for internal use only, both posters became promotional giveaways at race events and have since found homes on the walls of countless garages, shops, and bedrooms across the United States.

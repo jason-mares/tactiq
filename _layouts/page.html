@@ -2,7 +2,7 @@
 
 
 <div id="barba-wrapper" class="wrapper">
-    <div class="barba-container container {{ page.layout }} {{ page.folder }} {{ page.type }} {{ page.title }}" data-namespace="page">
+    <div class="barba-container container {{ page.layout }} {{ page.folder }} {{ page.type }} {{ page.title  | downcase | replace: ' ','-' }}" data-namespace="page">
         {{content}}
     </div>
 </div>

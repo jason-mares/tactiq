@@ -1,7 +1,7 @@
 {% include header.html %}
 
 <div id="barba-wrapper" class="wrapper">
-    <div class="barba-container container {{ page.id }} {{ page.layout }} {{ page.folder }} {{ page.type }}">
+    <div class="barba-container container {{ page.id }} {{ page.layout }} {{ page.folder }} {{ page.type }} {{ page.client | downcase | replace: ' ','-' }}">
         <div class="at-a-glance one-full clearfix">
             <div class="title one-half">
                 {% for project in site.pages %}
@@ -37,6 +37,7 @@
                 </p>
                 <div class="clear"></div>
             </div>
+            
             {% endfor %}
 
             <ul id="project-list">
