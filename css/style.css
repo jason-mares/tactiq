@@ -29,10 +29,10 @@
   display: block;
 }
 .container {
-  width: 1500px;
+  width: 1200px;
   margin: 0 auto;
 }
-@media (max-width: 1500px) {
+@media (max-width: 1200px) {
   .container {
     width: 89%;
   }
@@ -947,7 +947,7 @@ footer {
   padding: 34px 0 !important;
   opacity: 0.5;
 }
-@media (max-width: 1500px) {
+@media (max-width: 1200px) {
   footer {
     width: 100%;
     padding: 34px 1.25em !important;
@@ -1601,8 +1601,8 @@ form#contact input,
 form#contact textarea {
   width: 100%;
   display: block;
-  margin-bottom: 34px/2;
-  padding: 34px/2;
+  margin-bottom: calc(34px/2);
+  padding: calc(34px/2);
   border: 2px solid #c0c3eb;
   outline: 0;
 }

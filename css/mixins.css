@@ -29,15 +29,15 @@
   display: block;
 }
 .container {
-  width: 1500px;
+  width: 1200px;
   margin: 0 auto;
 }
-@media (max-width: 1500px) {
+@media (max-width: 1200px) {
   .container {
     width: 89%;
   }
 }
-@media (max-width: 1500px) {
+@media (max-width: 1200px) {
   .container {
     width: 89%;
   }
@@ -282,15 +282,15 @@ strong {
   display: block;
 }
 .container {
-  width: 1500px;
+  width: 1200px;
   margin: 0 auto;
 }
-@media (max-width: 1500px) {
+@media (max-width: 1200px) {
   .container {
     width: 89%;
   }
 }
-@media (max-width: 1500px) {
+@media (max-width: 1200px) {
   .container {
     width: 89%;
   }
